@@ -1,0 +1,1394 @@
+/* line 1, ../sass/_blog.scss */
+.wrap-blog {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  padding-left: 0;
+  padding-right: 0;
+  border-bottom: 1px solid #e6e9ee;
+}
+
+/* line 9, ../sass/_blog.scss */
+.text-blog {
+  color: #585858;
+  font: 14px/28px OpenSans;
+  font-weight: 400;
+}
+
+/* line 15, ../sass/_blog.scss */
+.margin-text-blog {
+  margin: 45px 0 60px;
+}
+
+/* line 19, ../sass/_blog.scss */
+.margin-blog {
+  margin-top: 100px;
+}
+
+/* line 23, ../sass/_blog.scss */
+.click-pages {
+  margin: -15px 0 115px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* line 30, ../sass/_blog.scss */
+.page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {
+  color: #ffaf36;
+  cursor: default;
+  background-color: transparent;
+  border: 2px solid #ffaf36;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+/* line 40, ../sass/_blog.scss */
+.page-link {
+  margin-right: 10px;
+  border: 2px solid #2a2b2c;
+  color: #2a2b2c;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 48, ../sass/_blog.scss */
+.page-link:hover, .page-link:active, .page-link:focus {
+  margin-right: 10px;
+  border: 2px solid #ffaf36;
+  color: #ffaf36;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+/* line 1, ../sass/_blog-post.scss */
+.wrap-blog-post {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  padding-left: 0;
+  border-bottom: 1px solid #e6e9ee;
+}
+
+/* line 8, ../sass/_blog-post.scss */
+.text-blog-post {
+  color: #585858;
+  font: 14px/28px OpenSans;
+  font-weight: 400;
+  margin-top: 45px;
+}
+
+/* line 15, ../sass/_blog-post.scss */
+.margin-blog {
+  margin-top: 100px;
+}
+
+/* line 19, ../sass/_blog-post.scss */
+.heading-text {
+  color: #1c1c1c;
+  font: 16px/24px Raleway;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 60px 0 25px;
+}
+
+/* line 27, ../sass/_blog-post.scss */
+.wrap-icons {
+  margin-top: 60px;
+}
+
+/* line 31, ../sass/_blog-post.scss */
+.admin {
+  padding: 0 0 70px 0;
+  border-bottom: 2px solid #e6e6e6;
+  margin-bottom: 60px;
+}
+
+/* line 37, ../sass/_blog-post.scss */
+.callout {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 195px;
+  border: 1px solid #36a8ff;
+  background-color: #36a8ff;
+}
+
+/* line 46, ../sass/_blog-post.scss */
+.callout, .callout:before {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+/* line 50, ../sass/_blog-post.scss */
+.callout:before,
+.callout:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #36a8ff;
+  background: #36a8ff;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* line 66, ../sass/_blog-post.scss */
+.callout:before {
+  z-index: -1;
+}
+
+/* line 70, ../sass/_blog-post.scss */
+.callout.arrow-left:before,
+.callout.arrow-left:after {
+  top: 100px;
+  left: 0;
+  margin-left: -9px;
+  border-top: 0;
+  border-right: 0;
+}
+
+/* line 79, ../sass/_blog-post.scss */
+.admin-name {
+  color: white;
+  font: 16px/24px Raleway;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 35px 0 0 40px;
+}
+
+/* line 87, ../sass/_blog-post.scss */
+.admin-info {
+  color: #dbefff;
+  font: 14px/28px OpenSans;
+  font-weight: 400;
+  width: 835px;
+  padding: 20px 0 10px 40px;
+}
+
+/* line 95, ../sass/_blog-post.scss */
+.comment-form {
+  background-color: #eaeff3;
+}
+
+/* line 99, ../sass/_blog-post.scss */
+.margin-btn-comment {
+  margin: -10px 0 100px;
+}
+
+/* line 1, ../sass/_contact-us.scss */
+.wrap-blog-contact {
+  margin-top: 15px;
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
+}
+
+/* line 8, ../sass/_contact-us.scss */
+.margin-name-contact {
+  margin: 100px 0 10px;
+}
+
+/*btn phone*/
+/* line 13, ../sass/_contact-us.scss */
+.contact-phone {
+  font: 16px OpenSans, sans-serif;
+  font-weight: 600;
+  padding-top: 20px;
+  margin-right: 140px;
+}
+/* line 18, ../sass/_contact-us.scss */
+.contact-phone a {
+  color: black;
+  text-decoration: none;
+}
+/* line 22, ../sass/_contact-us.scss */
+.contact-phone :hover {
+  color: #ffaf36;
+}
+/* line 25, ../sass/_contact-us.scss */
+.contact-phone .fa-phone {
+  color: #ffaf36;
+  font-size: 14px;
+}
+
+/* line 32, ../sass/_contact-us.scss */
+.background-img {
+  background: #000000;
+  overflow: hidden;
+  height: 350px;
+  display: block;
+  margin: 40px 0 0;
+}
+
+/* line 40, ../sass/_contact-us.scss */
+.img-blog {
+  opacity: 0.4;
+}
+
+/* line 44, ../sass/_contact-us.scss */
+.head-img {
+  color: #ffaf36;
+  font: 30px/24px Raleway;
+  font-weight: 800;
+  text-transform: uppercase;
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  margin-bottom: 20px;
+}
+
+/* line 55, ../sass/_contact-us.scss */
+.text-img {
+  color: white;
+  font: 16px/24px Raleway;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  top: 190px;
+  left: 100px;
+}
+
+/* line 65, ../sass/_contact-us.scss */
+.contact-from {
+  background-color: #eaeff3;
+  margin-top: 100px;
+}
+
+/* line 70, ../sass/_contact-us.scss */
+.margin-head-form {
+  margin: 90px 0 10px;
+}
+
+/* line 74, ../sass/_contact-us.scss */
+.blockquote {
+  padding-left: 40px;
+  padding-right: 20px;
+  font-size: 1.25rem;
+  border-left: .25rem solid #ffaf36;
+  background-color: #fef1de;
+  margin: 50px 0 50px 90px;
+}
+
+/* line 83, ../sass/_contact-us.scss */
+.text-blockquote {
+  color: #1c1c1c;
+  font: 15px/28px Lora-bolditalic;
+  line-height: 28px;
+  padding-top: 10px;
+}
+
+/* line 1, ../sass/_pages.scss */
+.faq-list {
+  width: 485px;
+  margin-top: 60px;
+}
+
+/* line 8, ../sass/_pages.scss */
+.head-list {
+  color: #1c1c1c;
+  font: 16px/24px Raleway-bold;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* line 15, ../sass/_pages.scss */
+.text-list {
+  color: #585858;
+  font: 14px/28px OpenSans;
+  font-weight: 400;
+}
+
+/* line 21, ../sass/_pages.scss */
+.wrap-list .faq-list {
+  margin-left: 50px;
+}
+
+/* line 25, ../sass/_pages.scss */
+.wrap-list ul {
+  counter-reset: myCounter;
+}
+
+/* line 29, ../sass/_pages.scss */
+.wrap-list li {
+  position: relative;
+}
+
+/* line 34, ../sass/_pages.scss */
+.wrap-list li:before {
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  color: #1c1c1c;
+  font: 700 13px OpenSans-bold;
+  display: inline-block;
+  text-align: center;
+  margin: 0 5px;
+  line-height: 40px;
+  width: 40px;
+  z-index: 2;
+  position: absolute;
+  left: -60px;
+  top: -6px;
+}
+
+/* line 50, ../sass/_pages.scss */
+.wrap-list li:after {
+  content: '';
+  background-color: #ffaf36;
+  margin: 7px 15px;
+  width: 22px;
+  height: 22px;
+  transform: rotate(45deg);
+  position: absolute;
+  left: -60px;
+  top: -5px;
+  z-index: 1;
+}
+
+/* line 64, ../sass/_pages.scss */
+.column {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 30px;
+  -moz-column-gap: 30px;
+  column-gap: 60px;
+}
+
+/* line 73, ../sass/_pages.scss */
+.search {
+  background-color: #eaeff3;
+  margin-top: 100px;
+}
+
+/* line 78, ../sass/_pages.scss */
+.center-text {
+  text-align: center;
+}
+
+/* line 82, ../sass/_pages.scss */
+.center-input {
+  margin: 0 auto;
+}
+
+/* line 86, ../sass/_pages.scss */
+.form-search {
+  margin: 30px auto 0;
+}
+
+/* line 90, ../sass/_pages.scss */
+.input-text {
+  color: darkgrey;
+  font: 400 14px OpenSans;
+  padding: 15px 0 15px 25px;
+}
+
+/* line 96, ../sass/_pages.scss */
+.input-group-addon {
+  padding: 15px 16px;
+  background-color: #ffaf36;
+  color: #2a2b2c;
+  font: 400 15px/28px;
+}
+/* line 101, ../sass/_pages.scss */
+.input-group-addon:hover {
+  background-color: #36a8ff;
+  color: white;
+}
+
+/* line 107, ../sass/_pages.scss */
+.margin-btn-contact {
+  margin: 60px 0 110px;
+}
+
+/* line 1, ../sass/_buttons.scss */
+.btn {
+  padding: 20px 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 2px solid #ffaf36;
+  background-color: transparent;
+  text-align: right;
+  border-radius: 0;
+}
+/* line 10, ../sass/_buttons.scss */
+.btn-orange {
+  color: #ffaf36;
+  font: 13px Raleway-bold;
+}
+/* line 13, ../sass/_buttons.scss */
+.btn-orange:hover {
+  background-color: #ffaf36;
+  color: black;
+}
+/* line 19, ../sass/_buttons.scss */
+.btn-inf {
+  color: #1c1c1c;
+  font: 16px/24px Raleway-bold;
+}
+/* line 22, ../sass/_buttons.scss */
+.btn-inf:hover {
+  background-color: #ffaf36;
+}
+/* line 27, ../sass/_buttons.scss */
+.btn-aply {
+  color: #1c1c1c;
+  font: 700 13px/24px Raleway-bold;
+  background-color: #ffaf36;
+}
+/* line 31, ../sass/_buttons.scss */
+.btn-aply:hover {
+  background-color: transparent;
+}
+/* line 34, ../sass/_buttons.scss */
+.btn-aply:focus {
+  border: 2px solid #ffaf36;
+}
+/* line 39, ../sass/_buttons.scss */
+.btn-submit {
+  color: #ffaf36;
+  font: 13px/24px Raleway-bold;
+  padding: 15px 30px;
+}
+/* line 43, ../sass/_buttons.scss */
+.btn-submit:hover {
+  background-color: #ffaf36;
+  color: black;
+}
+/* line 48, ../sass/_buttons.scss */
+.btn-submit:active {
+  background-color: #ffaf36;
+  color: black;
+}
+/* line 53, ../sass/_buttons.scss */
+.btn-client {
+  padding: 20px 42px;
+  margin-left: 30px;
+}
+
+/* line 59, ../sass/_buttons.scss */
+.margin-submit-form {
+  margin-bottom: 100px;
+}
+
+/* line 63, ../sass/_buttons.scss */
+.margin-btn-read {
+  margin-top: 20px;
+}
+
+/* line 67, ../sass/_buttons.scss */
+.margin-submit-footer {
+  margin: 10px 0 100px;
+}
+
+/* line 1, ../sass/_social-icons.scss */
+.wrap-btn-social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #585858;
+  font: 14px/28px OpenSans;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-left: 15px;
+  margin-bottom: 70px;
+}
+/* line 11, ../sass/_social-icons.scss */
+.wrap-btn-social .social {
+  margin: 20px 10px;
+  text-align: center;
+}
+/* line 14, ../sass/_social-icons.scss */
+.wrap-btn-social .social .smGlobalBtn {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 2px 2px #999;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  margin-left: 10px;
+}
+/* line 33, ../sass/_social-icons.scss */
+.wrap-btn-social .social .facebookBtn {
+  background: #4060A5;
+}
+/* line 35, ../sass/_social-icons.scss */
+.wrap-btn-social .social .facebookBtn:before {
+  font-family: "FontAwesome";
+  content: "\f09a";
+}
+/* line 39, ../sass/_social-icons.scss */
+.wrap-btn-social .social .facebookBtn:hover {
+  color: #4060A5;
+  background: #fff;
+}
+/* line 44, ../sass/_social-icons.scss */
+.wrap-btn-social .social .twitterBtn {
+  background: #00ABE3;
+}
+/* line 46, ../sass/_social-icons.scss */
+.wrap-btn-social .social .twitterBtn:before {
+  font-family: "FontAwesome";
+  content: "\f099";
+}
+/* line 50, ../sass/_social-icons.scss */
+.wrap-btn-social .social .twitterBtn:hover {
+  color: #00ABE3;
+  background: #fff;
+}
+/* line 55, ../sass/_social-icons.scss */
+.wrap-btn-social .social .googleplusBtn {
+  background: #e64522;
+}
+/* line 57, ../sass/_social-icons.scss */
+.wrap-btn-social .social .googleplusBtn:before {
+  font-family: "FontAwesome";
+  content: "\f0d5";
+}
+/* line 61, ../sass/_social-icons.scss */
+.wrap-btn-social .social .googleplusBtn:hover {
+  color: #e64522;
+  background: #fff;
+}
+
+/* line 1, ../sass/_title.scss */
+.heading {
+  color: #1c1c1c;
+  font: 800 30px/24px Raleway-extraBold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+/* line 9, ../sass/_title.scss */
+.info-heading {
+  color: #1c1c1c;
+  font: 16px Lora-italic;
+}
+
+@font-face {
+  src: url("fonts/proxima/pnr.otf");
+  font-family: Proxima Nova;
+}
+/*  Lora  */
+@font-face {
+  font-family: Lora-italic;
+  src: url("../fonts/lora/Lora-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: Lora-bold;
+  src: url("../fonts/lora/Lora-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: Lora-regular;
+  src: url("../fonts/lora/Lora-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: Lora-bolditalic;
+  src: url("../fonts/lora/Lora-Bolditalic.ttf") format("truetype");
+}
+/*  OpenSans */
+@font-face {
+  font-family: OpenSans;
+  src: url("../fonts/OpenSans/OpenSans-Regular.ttf") format("truetype");
+}
+/*  Raleway  */
+@font-face {
+  font-family: Raleway;
+  src: url("../fonts/Raleway/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: Raleway-bold;
+  src: url("../fonts/Raleway/Raleway-Bold.ttf");
+}
+@font-face {
+  font-family: Raleway-extraBold;
+  src: url("../fonts/Raleway/Raleway-extraBold.ttf");
+}
+/* line 1, ../sass/_pyramids.scss */
+.pyramids {
+  position: relative;
+}
+/* line 3, ../sass/_pyramids.scss */
+.pyramids:before {
+  width: 0;
+  height: 0;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 100px solid #36a8ff;
+  z-index: 1;
+  position: absolute;
+  content: '';
+}
+/* line 13, ../sass/_pyramids.scss */
+.pyramids:after {
+  width: 0;
+  height: 0;
+  border-left: 55px solid transparent;
+  border-right: 55px solid transparent;
+  border-bottom: 70px solid #ffaf36;
+  z-index: 2;
+  position: absolute;
+  content: '';
+}
+/* line 24, ../sass/_pyramids.scss */
+.pyramids-right:before {
+  right: 65px;
+  bottom: 0;
+  top: -100px;
+}
+/* line 29, ../sass/_pyramids.scss */
+.pyramids-right:after {
+  right: 5px;
+  bottom: 0;
+  top: -70px;
+}
+/* line 36, ../sass/_pyramids.scss */
+.pyramids-left:before {
+  left: 5px;
+  bottom: 0;
+  top: -100px;
+}
+/* line 41, ../sass/_pyramids.scss */
+.pyramids-left:after {
+  left: 80px;
+  bottom: 0;
+  top: -70px;
+}
+
+/* line 1, ../sass/_blog-heading.scss */
+.blog-heading {
+  color: #1c1c1c;
+  font: 18px/24px Raleway-bold;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* line 8, ../sass/_blog-heading.scss */
+.info-posted {
+  color: #757575;
+  font: 13px/24px Proxima Nova;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 5px 0 35px;
+}
+
+/* line 1, ../sass/_header.scss */
+.banner-background {
+  background: #000000;
+  overflow: hidden;
+  height: 400px;
+  display: block;
+}
+
+/* line 9, ../sass/_header.scss */
+.banner-img {
+  width: 100%;
+  display: block;
+  opacity: 0.4;
+  min-height: 400px;
+}
+
+/* line 17, ../sass/_header.scss */
+.wrap-header {
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  z-index: 3;
+  border-bottom: 1px solid rgba(221, 228, 234, 0.15);
+  left: 0;
+  right: 0;
+  top: 25px;
+}
+
+/* line 28, ../sass/_header.scss */
+.logo-header {
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  padding-right: 20px;
+}
+
+/* line 33, ../sass/_header.scss */
+.nav {
+  padding-top: 10px;
+}
+
+/* line 37, ../sass/_header.scss */
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font: 14px/24px OpenSans, sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+/* line 42, ../sass/_header.scss */
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffaf36;
+}
+/* line 45, ../sass/_header.scss */
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #ffaf36;
+}
+
+/* line 50, ../sass/_header.scss */
+.navbar-nav .nav-item + .nav-item {
+  margin-left: 40px;
+}
+
+/* line 54, ../sass/_header.scss */
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #ffaf36;
+  font-weight: 600;
+}
+/* line 57, ../sass/_header.scss */
+.navbar-light .navbar-nav .active > .nav-link:hover {
+  color: #ffaf36;
+  font-weight: 600;
+}
+/* line 61, ../sass/_header.scss */
+.navbar-light .navbar-nav .active > .nav-link:focus {
+  color: #ffaf36;
+  font-weight: 600;
+}
+
+/* line 67, ../sass/_header.scss */
+.phone {
+  font: 14px OpenSans, sans-serif;
+  font-weight: 600;
+  padding-top: 20px;
+}
+/* line 71, ../sass/_header.scss */
+.phone a {
+  color: white;
+  text-decoration: none;
+}
+/* line 75, ../sass/_header.scss */
+.phone :hover {
+  color: #ffaf36;
+}
+
+/* line 80, ../sass/_header.scss */
+.fa-phone {
+  color: #ffaf36;
+  font-size: 14px;
+}
+
+/* line 85, ../sass/_header.scss */
+.navbar-nav {
+  float: right;
+}
+
+/* line 1, ../sass/_footer.scss */
+.wrap-footer {
+  width: 100%;
+  background-color: #2a2b2c;
+}
+
+/* line 6, ../sass/_footer.scss */
+.logo-footer {
+  margin: 124px 0 20px;
+}
+
+/* line 10, ../sass/_footer.scss */
+.copyright {
+  color: #8e8e8e;
+  font: 13px/24px OpenSans;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+/* line 19, ../sass/_footer.scss */
+.btn-footer {
+  padding: 0;
+  background-color: #2a2b2c;
+  border: 0;
+  margin-right: 5px;
+}
+
+/* line 26, ../sass/_footer.scss */
+.heading-nav {
+  margin: 85px 0 20px;
+  color: white;
+  font: 18px/24px Raleway;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+
+/* line 35, ../sass/_footer.scss */
+.fa-caret-right {
+  color: #ffaf36;
+  padding-right: 20px;
+}
+
+/* line 41, ../sass/_footer.scss */
+.navigations li a {
+  color: #7b7b7c;
+  font: 13px/40px OpenSans;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+/* line 48, ../sass/_footer.scss */
+.navigations li a:hover {
+  color: white;
+}
+
+/* line 53, ../sass/_footer.scss */
+.navigations {
+  padding: 0 80px 0 0;
+  list-style-type: none;
+}
+
+/* line 58, ../sass/_footer.scss */
+.navigations li::before {
+  color: #ffaf36;
+  content: "";
+  padding-right: 15px;
+}
+
+/* line 64, ../sass/_footer.scss */
+.lines-nav {
+  border-bottom: 1px solid #373839;
+}
+/* line 66, ../sass/_footer.scss */
+.lines-nav:hover {
+  border: 0;
+}
+/* line 69, ../sass/_footer.scss */
+.lines-nav .active-footer {
+  color: white;
+}
+
+/* line 74, ../sass/_footer.scss */
+.head-form {
+  color: white;
+  font: 18px/24px Raleway;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 85px 0 20px;
+}
+
+/* line 82, ../sass/_footer.scss */
+.f-form {
+  background-color: transparent;
+  border: 1px solid #373839;
+  border-radius: 0;
+}
+/* line 86, ../sass/_footer.scss */
+.f-form:focus {
+  background-color: transparent;
+  border: 1px solid #373839;
+}
+
+/* line 92, ../sass/_footer.scss */
+#name-f {
+  width: 217px;
+}
+
+/* line 96, ../sass/_footer.scss */
+#email-f {
+  width: 218px;
+}
+
+/* line 100, ../sass/_footer.scss */
+.textarea {
+  resize: none;
+  border-radius: 0;
+  background-color: transparent;
+  border: 1px solid #373839;
+  width: 100%;
+}
+/* line 106, ../sass/_footer.scss */
+.textarea:focus {
+  background-color: transparent;
+  border: 1px solid #373839;
+}
+
+/* line 112, ../sass/_footer.scss */
+.contact-us {
+  padding-left: 35px;
+}
+
+/* line 1, ../sass/_form.scss */
+.form-contact {
+  margin: 45px 0 0;
+}
+
+/* line 5, ../sass/_form.scss */
+.input-contact {
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 1px #dce3e8;
+  font-size: 14px/24px OpenSans;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #757c81;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+  padding-left: 0;
+  resize: none;
+}
+/* line 17, ../sass/_form.scss */
+.input-contact:focus {
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 1px #dce3e8;
+}
+
+/* line 2, ../sass/_comments.scss */
+.wrap-comments {
+  padding-left: 0;
+}
+
+/* line 6, ../sass/_comments.scss */
+.padding-com {
+  padding-left: 40px;
+}
+
+/* line 10, ../sass/_comments.scss */
+.comments {
+  margin: 45px 0 35px;
+  padding: 0 0 40px 0;
+  border-bottom: 1px solid #e6e9ee;
+}
+
+/* line 16, ../sass/_comments.scss */
+.comments-nesting {
+  margin: 45px 0 80px;
+  padding: 0 0 40px 0;
+}
+
+/* line 21, ../sass/_comments.scss */
+.photo-comm {
+  padding-left: 0;
+}
+
+/* line 25, ../sass/_comments.scss */
+.photo-comm-nesting {
+  padding-left: 40px;
+}
+
+/* line 29, ../sass/_comments.scss */
+.head-comments {
+  font: 13px/24px "Proxima Nova";
+  text-transform: uppercase;
+  color: #1c1c1c;
+  font-weight: 700;
+}
+
+/* line 36, ../sass/_comments.scss */
+.date-comments {
+  color: #ffaf36;
+  font-weight: 600;
+  padding-left: 5px;
+}
+
+/* line 42, ../sass/_comments.scss */
+.text-comments {
+  color: #585858;
+  font: 14px/28px OpenSans;
+  font-weight: 400;
+  padding-top: 5px;
+  width: 930px;
+  margin-bottom: 35px;
+}
+
+/* line 51, ../sass/_comments.scss */
+.wrap-btn-reply {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  color: #585858;
+  font: 14px/28px OpenSans;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+/* line 59, ../sass/_comments.scss */
+.wrap-btn-reply .reply {
+  margin: 0;
+  text-align: center;
+}
+/* line 62, ../sass/_comments.scss */
+.wrap-btn-reply .reply .Globalreply {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  text-decoration: none;
+  color: #ffaf36;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  margin-left: 10px;
+  border: 1px solid #ffaf36;
+}
+/* line 80, ../sass/_comments.scss */
+.wrap-btn-reply .reply .reply-btn {
+  background: white;
+  margin: 0;
+}
+/* line 83, ../sass/_comments.scss */
+.wrap-btn-reply .reply .reply-btn:before {
+  font-family: "FontAwesome";
+  content: "\f112";
+}
+/* line 87, ../sass/_comments.scss */
+.wrap-btn-reply .reply .reply-btn:hover {
+  color: white;
+  background: #4060A5;
+  border: 1px solid #4060A5;
+}
+
+/* line 1, ../sass/_about-us.scss */
+.text-about-us {
+  color: #585858;
+  font: 400 14px/28px OpenSans;
+  margin: 35px 0 80px;
+}
+
+/* line 7, ../sass/_about-us.scss */
+.background-img-about-us {
+  background: #000000;
+  overflow: hidden;
+  height: 350px;
+  display: block;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+/* line 16, ../sass/_about-us.scss */
+.img-blog-about-us {
+  opacity: 0.4;
+}
+
+/* line 20, ../sass/_about-us.scss */
+.wrap-btn-about-us {
+  position: absolute;
+  top: 175px;
+  left: 405px;
+}
+
+/* line 26, ../sass/_about-us.scss */
+.section-our-views {
+  width: 100%;
+  background-color: #eaeff3;
+}
+
+/* line 31, ../sass/_about-us.scss */
+.margin-our-mission {
+  margin: 30px 0 50px;
+}
+
+/* line 35, ../sass/_about-us.scss */
+.heading-our-views {
+  color: #1c1c1c;
+  font: 700 16px/24px Raleway-extrabold;
+  text-transform: uppercase;
+  margin: 30px 0 15px;
+}
+
+/* line 42, ../sass/_about-us.scss */
+.info-our-views {
+  color: #585858;
+  font: 400 14px/28px OpenSans;
+  width: 790px;
+}
+
+/* line 49, ../sass/_about-us.scss */
+.padding-our-vision {
+  padding-left: 60px;
+}
+
+/* line 53, ../sass/_about-us.scss */
+.padding-our-views {
+  padding-bottom: 80px;
+}
+
+/* line 57, ../sass/_about-us.scss */
+.background-our-views {
+  background: #000000;
+  overflow: hidden;
+  display: block;
+  width: 260px;
+  height: 175px;
+}
+
+/* line 66, ../sass/_about-us.scss */
+.img-our-views {
+  opacity: 0.75;
+}
+
+/* line 70, ../sass/_about-us.scss */
+.wrap-clients {
+  margin: 40px auto 200px;
+}
+
+/* line 75, ../sass/_about-us.scss */
+.carousel-indicators .active {
+  background-color: #ffaf36;
+}
+
+/* line 79, ../sass/_about-us.scss */
+.carousel-indicators li {
+  background-color: #36a8ff;
+  width: 12px;
+  height: 12px;
+}
+
+/* line 85, ../sass/_about-us.scss */
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 25px;
+  top: -110px;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+  margin-bottom: 100px;
+}
+
+/* line 98, ../sass/_about-us.scss */
+.wrap-img-clients {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* line 103, ../sass/_about-us.scss */
+.img-clients {
+  width: 190px;
+  height: 190px;
+  border: 1px solid #eaeff3;
+  display: flex;
+}
+
+/* line 1, ../sass/_careers.scss */
+.wrap-blog-careers {
+  margin-top: 100px;
+}
+
+/* line 5, ../sass/_careers.scss */
+.wrap-heading-careers {
+  padding: 30px 0 0 45px;
+}
+
+/* line 9, ../sass/_careers.scss */
+.background-img-careers {
+  background: #000000;
+  overflow: hidden;
+  width: 165px;
+  height: 155px;
+  display: block;
+  z-index: 1;
+  background-image: linear-gradient(150deg, rgba(54, 168, 255, 0.32) 0%, rgba(255, 175, 54, 0.32) 100%);
+}
+
+/* line 19, ../sass/_careers.scss */
+.img-blog-careers {
+  opacity: 0.75;
+  z-index: 2;
+}
+
+/* line 24, ../sass/_careers.scss */
+.img-border {
+  z-index: -1;
+  top: -105px;
+  left: 100px;
+  position: relative;
+}
+
+/* line 32, ../sass/_careers.scss */
+.text-careers {
+  color: #585858;
+  font: 400 14px/28px OpenSans;
+  margin-top: 30px;
+  width: 700px;
+}
+
+/* line 39, ../sass/_careers.scss */
+.section-our-offers {
+  width: 100%;
+  background-color: #eaeff3;
+}
+
+/* line 44, ../sass/_careers.scss */
+.wrap-heading-our-offers {
+  margin: 100px 0 0;
+}
+
+/* line 48, ../sass/_careers.scss */
+.wrap-offers {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+/* line 54, ../sass/_careers.scss */
+.offers {
+  padding-left: 100px;
+  width: 500px;
+  margin-top: 60px;
+  position: relative;
+}
+/* line 59, ../sass/_careers.scss */
+.offers:before {
+  font-family: 'simple-line-icons';
+  position: absolute;
+  left: 0;
+  top: -10px;
+  font-size: 40px;
+}
+/* line 66, ../sass/_careers.scss */
+.offers-first:before {
+  content: "\e021";
+}
+/* line 69, ../sass/_careers.scss */
+.offers-second:before {
+  content: "\e02f";
+}
+/* line 72, ../sass/_careers.scss */
+.offers-third:before {
+  content: "\e044";
+}
+/* line 75, ../sass/_careers.scss */
+.offers-fourth:before {
+  content: "\e05c";
+}
+
+/* line 80, ../sass/_careers.scss */
+.heading-offers {
+  color: #1c1c1c;
+  font: 700 16px/24px Raleway-bold;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+/* line 87, ../sass/_careers.scss */
+.info-offers {
+  color: #585858;
+  font: 400 14px/28px OpenSans;
+}
+
+/* line 93, ../sass/_careers.scss */
+.margin-offers {
+  margin-top: 60px;
+  padding-bottom: 100px;
+}
+
+/* line 98, ../sass/_careers.scss */
+.wrap-heading-position {
+  display: flex;
+}
+
+/* line 103, ../sass/_careers.scss */
+.wrap-position {
+  border-bottom: 1px solid #e5eaee;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+}
+
+/* line 109, ../sass/_careers.scss */
+.wrap-position:last-of-type {
+  margin-bottom: 150px;
+}
+
+/* line 113, ../sass/_careers.scss */
+.margin-blog-position {
+  margin: 90px auto 50px;
+}
+
+/* line 117, ../sass/_careers.scss */
+.heading-position {
+  color: #1c1c1c;
+  font: 700 16px/24px Raleway-bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* line 124, ../sass/_careers.scss */
+.icon-arrow-right-circle {
+  font-size: 40px;
+  border: none;
+  background-color: transparent;
+  transform: rotate(90deg);
+  color: #36a8ff;
+}
+/* line 130, ../sass/_careers.scss */
+.icon-arrow-right-circle:focus, .icon-arrow-right-circle :active {
+  outline: none;
+}
+
+/* line 135, ../sass/_careers.scss */
+.collapsed {
+  transform: rotate(0deg);
+  color: black;
+}
+
+/* line 141, ../sass/_careers.scss */
+.item {
+  color: #1c1c1c;
+  font: 500 15px/24px Raleway;
+  text-transform: uppercase;
+}
+
+/* line 147, ../sass/_careers.scss */
+.padding-item {
+  padding-bottom: 40px;
+}
+
+/* line 151, ../sass/_careers.scss */
+.padding-item-row {
+  padding-bottom: 70px;
+}
+
+/* line 155, ../sass/_careers.scss */
+.info-item {
+  color: #585858;
+  font: 400 14px/24px OpenSans;
+  width: 280px;
+  padding-bottom: 40px;
+}
+
+/* line 163, ../sass/_careers.scss */
+.info-item li {
+  list-style-type: none;
+}
+
+/* line 167, ../sass/_careers.scss */
+.info-item ul {
+  padding-left: 0;
+  line-height: 36px;
+}
+
+/* line 172, ../sass/_careers.scss */
+.info-item li:before {
+  font-family: FontAwesome;
+  content: "\f00c";
+  padding-right: 15px;
+}
+
+/* line 178, ../sass/_careers.scss */
+.info-others {
+  width: 330px;
+}

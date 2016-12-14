@@ -1,0 +1,22 @@
+{
+  "name": "Business-plus",
+  "homepage": "https://github.com/Romchigan/Business-plus",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.5",
+    "components-font-awesome": "^4.7.0",
+    "openSans": "https://google-fonts.azurewebsites.net/googleFonts/openSans?family=Open+Sans",
+    "raleway": "https://google-fonts.azurewebsites.net/googleFonts/Raleway?family=Raleway",
+    "lora": "https://google-fonts.azurewebsites.net/googleFonts/Lora?family=Lora"
+  }
+}
