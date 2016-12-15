@@ -424,62 +424,77 @@
   background-color: #ffaf36;
   color: black;
 }
-/* line 19, ../sass/_buttons.scss */
+/* line 17, ../sass/_buttons.scss */
+.btn-orange-black-text {
+  color: #1c1c1c;
+  font: 700 13px/24px Raleway-bold;
+  background-color: #ffaf36;
+}
+/* line 21, ../sass/_buttons.scss */
+.btn-orange-black-text:hover {
+  background-color: transparent;
+  color: white;
+}
+/* line 25, ../sass/_buttons.scss */
+.btn-orange-black-text:focus {
+  border: 2px solid #ffaf36;
+}
+/* line 31, ../sass/_buttons.scss */
 .btn-inf {
   color: #1c1c1c;
   font: 16px/24px Raleway-bold;
 }
-/* line 22, ../sass/_buttons.scss */
+/* line 34, ../sass/_buttons.scss */
 .btn-inf:hover {
   background-color: #ffaf36;
 }
-/* line 27, ../sass/_buttons.scss */
+/* line 39, ../sass/_buttons.scss */
 .btn-aply {
   color: #1c1c1c;
   font: 700 13px/24px Raleway-bold;
   background-color: #ffaf36;
 }
-/* line 31, ../sass/_buttons.scss */
+/* line 43, ../sass/_buttons.scss */
 .btn-aply:hover {
   background-color: transparent;
 }
-/* line 34, ../sass/_buttons.scss */
+/* line 46, ../sass/_buttons.scss */
 .btn-aply:focus {
   border: 2px solid #ffaf36;
 }
-/* line 39, ../sass/_buttons.scss */
+/* line 51, ../sass/_buttons.scss */
 .btn-submit {
   color: #ffaf36;
   font: 13px/24px Raleway-bold;
   padding: 15px 30px;
 }
-/* line 43, ../sass/_buttons.scss */
+/* line 55, ../sass/_buttons.scss */
 .btn-submit:hover {
   background-color: #ffaf36;
   color: black;
 }
-/* line 48, ../sass/_buttons.scss */
+/* line 60, ../sass/_buttons.scss */
 .btn-submit:active {
   background-color: #ffaf36;
   color: black;
 }
-/* line 53, ../sass/_buttons.scss */
+/* line 65, ../sass/_buttons.scss */
 .btn-client {
   padding: 20px 42px;
   margin-left: 30px;
 }
 
-/* line 59, ../sass/_buttons.scss */
+/* line 71, ../sass/_buttons.scss */
 .margin-submit-form {
   margin-bottom: 100px;
 }
 
-/* line 63, ../sass/_buttons.scss */
+/* line 75, ../sass/_buttons.scss */
 .margin-btn-read {
   margin-top: 20px;
 }
 
-/* line 67, ../sass/_buttons.scss */
+/* line 79, ../sass/_buttons.scss */
 .margin-submit-footer {
   margin: 10px 0 100px;
 }
@@ -1391,4 +1406,75 @@
 /* line 178, ../sass/_careers.scss */
 .info-others {
   width: 330px;
+}
+
+/* line 1, ../sass/_home.scss */
+.home-banner-background {
+  background: #000000;
+  overflow: hidden;
+  max-height: 835px;
+  display: block;
+}
+
+/* line 9, ../sass/_home.scss */
+.home-banner-img {
+  width: 100%;
+  display: block;
+  opacity: 0.4;
+  min-height: 400px;
+}
+
+/* line 17, ../sass/_home.scss */
+.home-carousel-indicators .carousel-indicators .active {
+  background-color: #ffaf36;
+  border-color: #ffaf36;
+  margin: 1px;
+}
+
+/* line 23, ../sass/_home.scss */
+.home-carousel-indicators .carousel-indicators li {
+  background-color: #8f8f8f;
+  border-color: #8f8f8f;
+  width: 25px;
+  height: 4px;
+  border-radius: 0;
+}
+
+/* line 31, ../sass/_home.scss */
+.home-carousel-indicators .carousel-indicators {
+  position: absolute;
+  top: -60px;
+  z-index: 15;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+}
+
+/* line 40, ../sass/_home.scss */
+.sup-heading-site {
+  color: white;
+  font: 600 16px/24px Raleway;
+  text-transform: uppercase;
+}
+
+/* line 46, ../sass/_home.scss */
+.heading-site {
+  color: white;
+  font: 700 60px/24px Raleway-extrabold;
+  text-transform: uppercase;
+  padding: 15px 0 20px;
+}
+
+/* line 53, ../sass/_home.scss */
+.info-site {
+  color: white;
+  font: 15px/30px Lora-italic;
+  line-height: 30px;
+  width: 515px;
+  margin-bottom: 60px;
+}
+
+/* line 61, ../sass/_home.scss */
+.wrap-heading-site {
+  margin-bottom: 300px;
 }
