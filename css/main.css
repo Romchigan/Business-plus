@@ -480,7 +480,7 @@
 }
 /* line 65, ../sass/_buttons.scss */
 .btn-client {
-  padding: 20px 42px;
+  padding: 18px 42px;
   margin-left: 30px;
 }
 
@@ -1613,23 +1613,124 @@
   color: #1c1c1c;
   font: 700 14px Raleway-extrabold;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
-/* line 203, ../sass/_home.scss */
+/* line 204, ../sass/_home.scss */
 .sub-name-clients {
   color: #585858;
   font: 400 14px/28px OpenSans;
 }
 
-/* line 208, ../sass/_home.scss */
+/* line 209, ../sass/_home.scss */
 .padding-name-clients {
   padding: 15px 0 0 30px;
 }
 
-/* line 212, ../sass/_home.scss */
+/* line 213, ../sass/_home.scss */
 .clients-carousel .carousel-indicators {
   left: 25px;
   top: -100px;
+}
+
+/* line 218, ../sass/_home.scss */
+.section-news {
+  width: 100%;
+  background-color: #eaeff3;
+  padding-bottom: 100px;
+}
+
+/* line 224, ../sass/_home.scss */
+.wrap-heading-news {
+  margin: 100px 0 50px;
+}
+
+/* line 228, ../sass/_home.scss */
+.date {
+  color: #1c1c1c;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* line 236, ../sass/_home.scss */
+.month-year {
+  color: #565656;
+  font: 400 14px/18px OpenSans;
+}
+
+/* line 241, ../sass/_home.scss */
+.info-icon {
+  color: #565656;
+  font: 400 14px/18px OpenSans;
+}
+/* line 244, ../sass/_home.scss */
+.info-icon:before {
+  font-size: 30px;
+  position: absolute;
+  top: 15px;
+  left: 35px;
+  font-family: 'simple-line-icons';
+}
+/* line 252, ../sass/_home.scss */
+.info-icon-first:before {
+  content: "\e04a";
+}
+/* line 255, ../sass/_home.scss */
+.info-icon-second:before {
+  content: "\e087";
+}
+
+/* line 260, ../sass/_home.scss */
+.news-icon {
+  padding-bottom: 15px;
+  padding-top: 45px;
+}
+
+/* line 265, ../sass/_home.scss */
+.img-news {
+  padding: 5px 0 40px 0;
+}
+
+/* line 269, ../sass/_home.scss */
+.lines-icon:nth-child(n+2) {
+  border-top: 1px solid #ffaf36;
+}
+
+/* line 273, ../sass/_home.scss */
+.wrap-new-blog {
+  width: 390px;
+}
+
+/* line 277, ../sass/_home.scss */
+.blog-heading-news {
+  color: #1c1c1c;
+  font: 700 16px/24px Raleway-bold;
+  text-transform: uppercase;
+}
+
+/* line 284, ../sass/_home.scss */
+.blog-info-heading-news {
+  color: #585858;
+  font: 400 14px/28px OpenSans;
+  line-height: 28px;
+  margin-top: 20px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+
+/* line 293, ../sass/_home.scss */
+.date-news-blog {
+  color: #ffaf36;
+  font: 700 12px/18px OpenSans;
+  text-transform: uppercase;
+  padding: 5px 0 5px;
+}
+
+/* line 300, ../sass/_home.scss */
+.border-news-blog {
+  border-bottom: 1px solid #d8dcdf;
 }
 
 /* line 1, ../sass/_carousel.scss */
