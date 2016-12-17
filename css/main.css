@@ -1158,39 +1158,12 @@
 }
 
 /* line 75, ../sass/_about-us.scss */
-.carousel-indicators .active {
-  background-color: #ffaf36;
-}
-
-/* line 79, ../sass/_about-us.scss */
-.carousel-indicators li {
-  background-color: #36a8ff;
-  width: 12px;
-  height: 12px;
-}
-
-/* line 85, ../sass/_about-us.scss */
-.carousel-indicators {
-  position: absolute;
-  bottom: 10px;
-  left: 25px;
-  top: -110px;
-  z-index: 15;
-  width: 60%;
-  padding-left: 0;
-  margin-left: -30%;
-  text-align: center;
-  list-style: none;
-  margin-bottom: 100px;
-}
-
-/* line 98, ../sass/_about-us.scss */
 .wrap-img-clients {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 103, ../sass/_about-us.scss */
+/* line 80, ../sass/_about-us.scss */
 .img-clients {
   width: 190px;
   height: 190px;
@@ -1573,26 +1546,115 @@
 
 /* line 143, ../sass/_home.scss */
 .wrap-heading-clients {
-  margin: 100px 0 60px;
+  margin: 100px 0 20px;
 }
 
 /* line 147, ../sass/_home.scss */
 .clients {
   width: 320px;
+  margin-bottom: 60px;
+  position: relative;
+}
+/* line 151, ../sass/_home.scss */
+.clients:before {
+  content: "\275D";
+  position: absolute;
+  font-size: 200px;
+  top: -122px;
+  left: -10px;
+}
+/* line 158, ../sass/_home.scss */
+.clients-first:before {
+  color: #1c1c1c;
+  opacity: 0.1;
+}
+/* line 162, ../sass/_home.scss */
+.clients-second:before {
+  color: #36a8ff;
+  opacity: 0.15;
+}
+/* line 166, ../sass/_home.scss */
+.clients-third:before {
+  color: #ffaf36;
+  opacity: 0.3;
 }
 
-/* line 151, ../sass/_home.scss */
+/* line 173, ../sass/_home.scss */
 .wrap-clients-home li {
   list-style-type: none;
 }
 
-/* line 155, ../sass/_home.scss */
+/* line 177, ../sass/_home.scss */
 .wrap-clients-home ul li {
   display: inline-block;
 }
 
-/* line 159, ../sass/_home.scss */
+/* line 181, ../sass/_home.scss */
+.wrap-clients-home {
+  padding-top: 50px;
+}
+
+/* line 185, ../sass/_home.scss */
+.wrap-list-clients {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 70px;
+}
+
+/* line 191, ../sass/_home.scss */
 .clients-info {
   color: #585858;
   font: 400 14px/28px OpenSans;
+  margin-bottom: 50px;
+}
+
+/* line 197, ../sass/_home.scss */
+.name-clients {
+  color: #1c1c1c;
+  font: 700 14px Raleway-extrabold;
+  text-transform: uppercase;
+}
+
+/* line 203, ../sass/_home.scss */
+.sub-name-clients {
+  color: #585858;
+  font: 400 14px/28px OpenSans;
+}
+
+/* line 208, ../sass/_home.scss */
+.padding-name-clients {
+  padding: 15px 0 0 30px;
+}
+
+/* line 212, ../sass/_home.scss */
+.clients-carousel .carousel-indicators {
+  left: 25px;
+  top: -100px;
+}
+
+/* line 1, ../sass/_carousel.scss */
+.carousel-indicators .active {
+  background-color: #ffaf36;
+}
+
+/* line 5, ../sass/_carousel.scss */
+.carousel-indicators li {
+  background-color: #36a8ff;
+  width: 12px;
+  height: 12px;
+}
+
+/* line 11, ../sass/_carousel.scss */
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 25px;
+  top: -110px;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+  margin-bottom: 100px;
 }
