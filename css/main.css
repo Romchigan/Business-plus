@@ -1545,11 +1545,12 @@
   content: "\e081";
 }
 /* line 118, ../sass/_home.scss */
-.services:after {
+.services:hover:after {
   position: absolute;
   top: -16px;
   font-family: FontAwesome;
   content: "\f068";
+  color: #36a8ff;
 }
 
 /* line 127, ../sass/_home.scss */

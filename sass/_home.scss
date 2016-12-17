@@ -115,12 +115,12 @@
     content: "\e081";
   }
 
-  &:after {
+  &:hover:after {
     position: absolute;
     top: -16px;
     font-family: FontAwesome;
     content: "\f068";
-
+    color: #36a8ff;
   }
 }
 
