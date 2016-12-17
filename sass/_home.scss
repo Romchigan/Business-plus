@@ -300,3 +300,33 @@
 .border-news-blog{
   border-bottom: 1px solid #d8dcdf;
 }
+
+.carousel-partners {
+  position: absolute;
+  bottom: 10px;
+  left: 25px;
+  top: -110px;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+  margin-bottom: 100px;
+}
+.wrap-img-partners {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-partners {
+  width: 190px;
+  height: 190px;
+  border: 1px solid #eaeff3;
+  display: flex;
+}
+
+.wrap-partners {
+  margin: 40px auto 200px;
+
+}
