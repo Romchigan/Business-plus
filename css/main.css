@@ -1506,21 +1506,20 @@
 .wrap-services {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 100px;
 }
 
-/* line 90, ../sass/_home.scss */
+/* line 89, ../sass/_home.scss */
 .services {
   padding-left: 100px;
   width: 550px;
   margin-top: 60px;
   position: relative;
 }
-/* line 95, ../sass/_home.scss */
+/* line 94, ../sass/_home.scss */
 .services:hover {
   color: #36a8ff;
 }
-/* line 98, ../sass/_home.scss */
+/* line 97, ../sass/_home.scss */
 .services:before {
   font-family: 'simple-line-icons';
   position: absolute;
@@ -1528,23 +1527,23 @@
   top: -10px;
   font-size: 40px;
 }
-/* line 105, ../sass/_home.scss */
+/* line 104, ../sass/_home.scss */
 .services-first:before {
   content: "\e05c";
 }
-/* line 108, ../sass/_home.scss */
+/* line 107, ../sass/_home.scss */
 .services-second:before {
   content: "\e005";
 }
-/* line 111, ../sass/_home.scss */
+/* line 110, ../sass/_home.scss */
 .services-third:before {
   content: "\e090";
 }
-/* line 114, ../sass/_home.scss */
+/* line 113, ../sass/_home.scss */
 .services-fourth:before {
   content: "\e081";
 }
-/* line 118, ../sass/_home.scss */
+/* line 117, ../sass/_home.scss */
 .services:hover:after {
   position: absolute;
   top: -16px;
@@ -1553,7 +1552,7 @@
   color: #36a8ff;
 }
 
-/* line 127, ../sass/_home.scss */
+/* line 126, ../sass/_home.scss */
 .heading-services {
   color: #1c1c1c;
   font: 700 16px/24px Raleway-bold;
@@ -1561,8 +1560,39 @@
   margin-bottom: 5px;
 }
 
-/* line 134, ../sass/_home.scss */
+/* line 133, ../sass/_home.scss */
 .info-services {
+  color: #585858;
+  font: 400 14px/28px OpenSans;
+}
+
+/* line 139, ../sass/_home.scss */
+.margin-btn-view {
+  margin: 75px 0 100px;
+}
+
+/* line 143, ../sass/_home.scss */
+.wrap-heading-clients {
+  margin: 100px 0 60px;
+}
+
+/* line 147, ../sass/_home.scss */
+.clients {
+  width: 320px;
+}
+
+/* line 151, ../sass/_home.scss */
+.wrap-clients-home li {
+  list-style-type: none;
+}
+
+/* line 155, ../sass/_home.scss */
+.wrap-clients-home ul li {
+  display: inline-block;
+}
+
+/* line 159, ../sass/_home.scss */
+.clients-info {
   color: #585858;
   font: 400 14px/28px OpenSans;
 }

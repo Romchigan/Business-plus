@@ -84,7 +84,6 @@
 .wrap-services{
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 100px;
 }
 
 .services{
@@ -135,4 +134,29 @@
   color: #585858;
   font: 400 14px/28px OpenSans;
 
+}
+
+.margin-btn-view {
+  margin: 75px 0 100px;
+}
+
+.wrap-heading-clients {
+  margin: 100px 0 60px;
+}
+
+.clients {
+  width: 320px;
+}
+
+.wrap-clients-home li {
+  list-style-type: none;
+}
+
+.wrap-clients-home ul li {
+  display: inline-block;
+}
+
+.clients-info {
+  color: #585858;
+  font: 400 14px/28px OpenSans;
 }
