@@ -28,10 +28,10 @@
 }
 
 .page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {
-    color: #ffaf36;
+    color: $orange;
     cursor: default;
     background-color: transparent;
-    border: 2px solid #ffaf36;
+    border: 2px solid $orange;
     font-weight: 400;
     text-transform: uppercase;
     margin-right: 10px;
@@ -47,8 +47,8 @@
 
 .page-link:hover, .page-link:active, .page-link:focus,  {
     margin-right: 10px;
-    border: 2px solid #ffaf36;
-    color: #ffaf36;
+    border: 2px solid $orange;
+    color: $orange;
     font-weight: 400;
     text-transform: uppercase;
     background-color: transparent;

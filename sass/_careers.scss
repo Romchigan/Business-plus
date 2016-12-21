@@ -7,7 +7,7 @@
 }
 
 .background-img-careers {
-    background: #000000;
+    background: $black;
     overflow: hidden;
     width: 165px;
     height: 155px;
@@ -78,7 +78,7 @@
 }
 
 .heading-offers {
-    color: #1c1c1c;
+    color: $dark-gray;
     font: 700 16px/24px Raleway-bold;
     text-transform: uppercase;
     margin-bottom: 5px;
@@ -115,7 +115,7 @@
 }
 
 .heading-position {
-    color: #1c1c1c;
+    color: $dark-gray;
     font: 700 16px/24px Raleway-bold;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -126,7 +126,7 @@
     border: none;
     background-color: transparent;
     transform: rotate(90deg);
-    color: #36a8ff;
+    color: $blue;
     &:focus, :active {
         outline: none;
     }
@@ -134,12 +134,12 @@
 
 .collapsed {
     transform: rotate(0deg);
-    color: black;
+    color: $black;
 
 }
 
 .item {
-    color: #1c1c1c;
+    color: $dark-gray;
     font: 500 15px/24px Raleway;
     text-transform: uppercase;
 }

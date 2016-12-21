@@ -1,5 +1,5 @@
 .banner-background{
-    background: #000000;
+    background: $black;
     overflow: hidden;
     height: 400px;
     display: block;
@@ -40,10 +40,10 @@
     text-transform: uppercase;
     font-weight: 600;
     &:hover {
-        color: #ffaf36;
+        color: $orange;
     }
     &:focus {
-        color: #ffaf36;
+        color: $orange;
     }
 }
 
@@ -52,14 +52,14 @@
 }
 
 .navbar-light .navbar-nav .active>.nav-link {
-    color: #ffaf36;
+    color: $orange;
     font-weight: 600;
     &:hover {
-        color: #ffaf36;
+        color: $orange;
         font-weight: 600;
     }
     &:focus {
-        color: #ffaf36;
+        color: $orange;
         font-weight: 600;
     }
 }
@@ -69,16 +69,16 @@
     font-weight: 600;
     padding-top: 20px;
     a {
-        color: white;
+        color: $white;
         text-decoration: none;
     }
     :hover {
-        color: #ffaf36;
+        color: $orange;
     }
 }
 
 .fa-phone {
-    color: #ffaf36;
+    color: $orange;
     font-size: 14px;
 }
 

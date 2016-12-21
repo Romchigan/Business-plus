@@ -5,7 +5,7 @@
 }
 
 .background-img-about-us {
-    background: #000000;
+    background: $black;
     overflow: hidden;
     height: 350px;
     display: block;
@@ -33,7 +33,7 @@
 }
 
 .heading-our-views {
-    color: #1c1c1c;
+    color: $dark-gray;
     font: 700 16px/24px Raleway-extrabold;
     text-transform: uppercase;
     margin: 30px 0 15px;
@@ -55,7 +55,7 @@
 }
 
 .background-our-views {
-    background: #000000;
+    background: $black;
     overflow: hidden;
     display: block;
     width: 260px;

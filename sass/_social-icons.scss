@@ -21,7 +21,7 @@
             padding: 0;
             text-decoration: none;
             text-align: center;
-            color: #fff;
+            color: $white;
             font-size: 25px;
             font-weight: normal;
             line-height: 2em;
@@ -38,7 +38,7 @@
             }
             &:hover{
                 color: #4060A5;
-                background: #fff;
+                background: $white;
             }
         }
         .twitterBtn{
@@ -49,7 +49,7 @@
             }
             &:hover{
                 color: #00ABE3;
-                background: #fff;
+                background: $white;
             }
         }
         .googleplusBtn{
@@ -60,7 +60,7 @@
             }
             &:hover{
                 color: #e64522;
-                background: #fff;
+                background: $white;
             }
         }
     }

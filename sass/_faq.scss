@@ -1,12 +1,10 @@
 .faq-list {
     width: 485px;
     margin-top: 60px;
-
-
 }
 
 .head-list {
-    color: #1c1c1c;
+    color: $dark-gray;
     font: 16px/24px Raleway-bold;
     font-weight: 700;
     text-transform: uppercase;
@@ -34,7 +32,7 @@
 .wrap-list li:before {
     counter-increment: myCounter;
     content:counter(myCounter);
-    color: #1c1c1c;
+    color: $dark-gray;
     font: 700 13px OpenSans-bold;
     display: inline-block;
     text-align: center;
@@ -49,7 +47,7 @@
 
 .wrap-list li:after {
     content: '';
-    background-color: #ffaf36;
+    background-color: $orange;
     margin: 7px 15px;
     width: 22px;
     height: 22px;
@@ -95,12 +93,12 @@
 
 .input-group-addon {
     padding: 15px 16px;
-    background-color: #ffaf36;
+    background-color: $orange;
     color: #2a2b2c;
     font: 400 15px/28px;
     &:hover {
-        background-color: #36a8ff;
-        color: white;
+        background-color: $blue;
+        color: $white;
     }
 }
 
