@@ -83,25 +83,27 @@
     font: 18px/24px Raleway;
     font-weight: 700;
     text-transform: uppercase;
-    margin: 85px 0 20px;
+    margin: 85px 0 35px;
 }
 
-.f-form {
+.form-control {
+  color: #737476;
+  font-family: OpenSans;
+}
+
+.input-footer{
     background-color: transparent;
     border: 1px solid #373839;
     border-radius: 0;
+    padding: 12px 0 12px 20px;
     &:focus {
         background-color: transparent;
         border: 1px solid #373839;
     }
 }
 
-#name-f {
-    width: 217px;
-}
-
-#email-f {
-    width: 218px;
+.f-footer ul {
+  padding: 0;
 }
 
 .textarea {
@@ -109,7 +111,7 @@
     border-radius: 0;
     background-color: transparent;
     border: 1px solid #373839;
-    width: 100%;
+    padding: 15px 0 0 20px;
     &:focus {
         background-color: transparent;
         border: 1px solid #373839;
