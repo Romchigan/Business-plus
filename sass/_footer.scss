@@ -66,10 +66,17 @@
     &:hover {
         border: 0;
     }
+    &-active {
+        border-bottom: 1px solid $white;
+        &:hover {
+            border-bottom: 1px solid $white;
+        }
+    }
     .active-footer {
         color: $white;
     }
 }
+
 
 .head-form {
     color: $white;
