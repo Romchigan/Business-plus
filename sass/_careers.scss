@@ -135,7 +135,10 @@
 .collapsed {
     transform: rotate(0deg);
     color: $black;
+}
 
+.padding-positions {
+    padding-bottom: 40px;
 }
 
 .item {
@@ -157,22 +160,6 @@
     font: 400 14px/24px OpenSans;
     width: 280px;
     padding-bottom: 40px;
-
-}
-
-.info-item li {
-    list-style-type: none;
-}
-
-.info-item ul {
-    padding-left: 0;
-    line-height: 36px;
-}
-
-.info-item li:before {
-    font-family: FontAwesome;
-    content: "\f00c";
-    padding-right: 15px;
 }
 
 .info-others {
