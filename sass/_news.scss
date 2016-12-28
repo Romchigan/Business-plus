@@ -32,11 +32,20 @@
   }
   &-second {
     &:after {
-      content: "dgdfgdfr-20-05";
+      content: "october-22-05";
+    }
+  }
+  &-third {
+    &:after {
+      content: "october-24-05";
+    }
+  }
+  &-fourth {
+    &:after {
+      content: "october-26-05";
     }
   }
 }
-
 .heading-news {
   color: $dark-gray;
   font: 700 16px Raleway-extrabold;
@@ -58,4 +67,27 @@
 
 .wrap-info-news .info-check-list ul {
   line-height: 30px;
+}
+
+.section-light-blue {
+  background-color: #eaeff3;
+  padding-top: 100px;
+}
+
+.padding-news {
+  padding-top: 100px;
+}
+
+.padding-img {
+  padding-right: 10px;
+}
+
+.wrap-img-news {
+  display: flex;
+  padding-top: 30px;
+}
+
+.section-light-blue-second {
+  background-color: #eaeff3;
+  padding: 100px 0 40px;
 }
