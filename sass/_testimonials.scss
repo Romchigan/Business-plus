@@ -68,3 +68,24 @@
 .padding-testimoinial {
   padding-top: 100px;
 }
+
+.form-post-comments .form-control {
+  border: 1px solid #dfe5ea;
+  font: 400 13px OpenSans;
+  text-transform: uppercase;
+  color: #585858;
+  border-radius: 0;
+  padding: 15px 0 15px 25px;
+}
+
+.form-post-comments .form-group {
+  margin-bottom: 20px;
+}
+
+.textarea-post-comments {
+  resize: none;
+}
+
+.margin-submit-post-comments {
+  margin: 20px 0 70px 0;
+}
