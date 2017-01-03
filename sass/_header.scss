@@ -86,3 +86,32 @@
 .navbar-nav {
     float: right;
 }
+
+.nav-item:hover {
+    .nav-submenu {
+        display: block;
+    }
+}
+
+.nav-submenu {
+    font-weight: 600;
+    text-transform: uppercase;
+    display: none;
+    position: absolute;
+    width: 170px;
+    list-style-type: none;
+    background-color: $orange;
+    padding-left: 0;
+    &-item a {
+        text-decoration: none;
+        color: $black;
+        width: 170px;
+        padding: 10px 130px 10px 10px;
+    }
+    &-item {
+        padding: 10px 0;
+        &:hover {
+            background-color: $white;
+        }
+    }
+}
