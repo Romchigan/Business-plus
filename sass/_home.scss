@@ -256,29 +256,5 @@
 
 }
 
-.navbar-light .navbar-nav .open>.nav-link
- {
-  color: $orange;
-  &:focus {
-    color: $orange;
-  }
-  &:hover {
-    color: $orange;
-  }
-}
 
-.dropdown-menu {
-  background-color: transparent;
-  border: none;
-}
 
-.dropdown-item {
-  color: $dark-gray;
-  font: 600 18px/34px OpenSans, sans-serif;
-  width: 180px;
-  background-color: $orange;
-  &:hover {
-    background-color: transparent;
-    color: $orange;
-  }
-}
