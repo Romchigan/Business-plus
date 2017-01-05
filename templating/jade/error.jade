@@ -1,21 +1,14 @@
-include includes/header
-include includes/footer
-doctype html
-html(lang="en")
-    head
-        include includes/head-includes
-        title Error
-    body
-        +header
-        block banner-bg
-            .banner-background
-                img(src="../../img/error/error-banner.jpg" alt="banner" class="banner-img" height="801px" width="1970px")
-        block content
-            section
-                .container.wrap-error
-                    .row
-                        .col-xs-12
-                            .head-error error <span class="number-error">404</span> Not foud
-                        .col-xs-12
-                            .error-message.text-xs-center You may have mis-typed the URL Or the page has been removed
-        +footer
+extends template
+block title
+    title Error
+block banner-bg
+    .banner-background
+        img(src="../../img/error/error-banner.jpg" alt="banner" class="banner-img" height="801px" width="1970px")
+block content
+    section
+        .container.wrap-error
+            .row
+                .col-xs-12
+                    .head-error error <span class="number-error">404</span> Not foud
+                .col-xs-12
+                    .error-message.text-xs-center You may have mis-typed the URL Or the page has been removed
