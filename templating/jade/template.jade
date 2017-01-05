@@ -1,0 +1,13 @@
+include includes/header
+include includes/footer
+doctype html
+html(lang="en")
+    head
+        include includes/head-includes
+        block title
+            title Page
+    body
+        +header
+        block banner-bg
+        block content
+        +footer
