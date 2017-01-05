@@ -1,399 +1,308 @@
-include includes/head-includes
-include includes/js-includes
+include includes/header
+include includes/footer
 doctype html
 html(lang="en")
     head
-        +meta
-        +simple-icon
-        +font-awesome
-        +bootstrap
-        +css
+        include includes/head-includes
         title Home
     body
-        header.wrap-header
-            .container.pr-0.pl-0
-                .row
-                    .col-xs-12.pr-0.pl-0
-                        nav.navbar.navbar-light
-                            a(href="#" class="navbar-brand")
-                                img(src="../../img/home/header/logo.png" alt="logo" class="logo-header")
-                            span.navbar-text.phone
-                                i(class="fa fa-phone" aria-hidden="true")
-                                a(href="callto:+9978 8856 999") +9978 8856 999
-                            ul.nav.navbar-nav
-                                li.nav-item.active
-                                    a(class="nav-link" href="home.html") Home
-                                        span.sr-only (current
-                                li.nav-item
-                                    a(class="nav-link" href="about-us.html") About us
-                                li.nav-item
-                                    a(class="nav-link" href="services.html") Services
-                                li.nav-item
-                                    a(class="nav-link" href="News.html") News
-                                li.nav-item
-                                    a(class="nav-link" href="Blog.html") Blog
-                                li.nav-item
-                                    a(class="nav-link" href="#") Pages
-                                    ul.nav-submenu
-                                        li.nav-submenu-item
-                                            a(href="faq.html") Faq
-                                        li.nav-submenu-item
-                                            a(href="careers.html") Careers
-                                        li.nav-submenu-item
-                                            a(href="testimonials.html") Testimonials
-                                li.nav-item
-                                    a(class="nav-link" href="contact-us.html") Contact us
-        div(id="home-carousel" class="carousel slide" data-ride="carousel")
-            div(class="carousel-inner" role="listbox")
-                .carousel-item.active
-                    .home-banner-background
-                        img(src="../../img/home/banner/banner-first.jpg" alt="banner" class="home-banner-img")
-                        .carousel-caption
-                            .container.wrap-heading-site
-                                .row
-                                    .col-xs-12.text-xs-left.pl-0
-                                        h3.sup-heading-site.pl-0 Welcome to
-                                        h1.heading-site Business plus
-                                        p.info-site Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever.
-                                        button(type="button" class="btn btn-orange btn-orange-black-text") Read more
-                .carousel-item
-                    .home-banner-background
-                        img(src="../../img/home/banner/banner-second.jpg" alt="banner" class="home-banner-img")
-                        .carousel-caption
-                            .container.wrap-heading-site
-                                .row
-                                    .col-xs-12.text-xs-left.pl-0
-                                        h3.sup-heading-site.pl-0 Welcome to
-                                        h1.heading-site Business plus
-                                        p.info-site Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever.
-                                        button(type="button" class="btn btn-orange btn-orange-black-text") Read more
-                .carousel-item
-                    .home-banner-background
-                        img(src="../../img/home/banner/banner-third.jpg" alt="banner" class="home-banner-img")
-                        .carousel-caption
-                            .container.wrap-heading-site
-                                .row
-                                    .col-xs-12.text-xs-left.pl-0
-                                        h3.sup-heading-site.pl-0 Welcome to
-                                        h1.heading-site Business plus
-                                        p.info-site Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever.
-                                        button(type="button" class="btn btn-orange btn-orange-black-text") Read more
-            .container
-                .row
-                    .col-xs-12.home-carousel-indicators
-                        ol.carousel-indicators
-                            li(data-target="#home-carousel" data-slide-to="0" class="active")
-                            li(data-target="#home-carousel" data-slide-to="1")
-                            li(data-target="#home-carousel" data-slide-to="2")
-        section.about-us-section
-            .container.pl-0
-                .row
-                    .col-xs-5
-                        h2.heading About us
-                        .info-heading Our Short Story
-                    .col-xs-7.pl-3
-                        .text-home Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        form(action="about-us.html")
-                            button(type="submit" class="btn btn-orange margin-btn-read") Read more
-        section.section-services
-            .container
-                .row
-                    .col-xs-12.wrap-heading-services.pl-0
-                        h2.heading Services
-                        .info-heading What we are doing
-            .container
-                .row
-                    .col-xs-12.wrap-services.flex-items-xs-between.pl-0
-                        .services.services-first
-                            .heading-services Boosting your business
-                            .info-services Lorem Ipsum is simply dummy text of the printing and industry Lorem Ipsum has been the industry's standard dummy text.
-                        .services.services-second
-                            .heading-services Online support
-                            .info-services Lorem Ipsum is simply dummy text of the printing and industry Lorem Ipsum has been the industry's standard dummy text.
-                        .services.services-third
-                            .heading-services analyzing business strategy
-                            .info-services Lorem Ipsum is simply dummy text of the printing and industry Lorem Ipsum has been the industry's standard dummy text.
-                        .services.services-fourth
-                            .heading-services Time managment
-                            .info-services Lorem Ipsum is simply dummy text of the printing and industry Lorem Ipsum has been the industry's standard dummy text.
-                .row
-                    .col-xs-12.pl-0
-                        form(action="services.html")
-                            button(type="submit" class="btn btn-orange margin-btn-view") View more
-        section
-            .container.pyramids.pyramids-right
-                .row
-                    .col-xs-12.wrap-heading-clients.pl-0
-                        h2.heading Clients
-                        .info-heading Whats our client says
-            div(id="carousel-example-generic" class="carousel slide" data-ride="carousel")
+        +header
+        block content
+            div(id="home-carousel" class="carousel slide" data-ride="carousel")
                 div(class="carousel-inner" role="listbox")
                     .carousel-item.active
-                        .container
-                            .row
-                                .col-xs-12.pl-0
-                                    .wrap-clients-home
-                                        ul.pl-0.wrap-list-clients.flex-items-xs-between
-                                            li.clients.clients-first
-                                                .clients-info Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
-                                                .row
-                                                    .col-xs-3
-                                                        div
-                                                            img(src="../../img/home/content/clients/client-first.png" alt="clients")
-                                                    .col-xs-9.padding-name-clients
-                                                        .name-clients Krishnan Unni
-                                                        .sub-name-clients Designation
-                                            li.clients.clients-second
-                                                .clients-info Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
-                                                .row
-                                                    .col-xs-3
-                                                        div
-                                                            img(src="../../img/home/content/clients/client-second.png" alt="clients")
-                                                    .col-xs-9.padding-name-clients
-                                                        .name-clients Mariya Jeorge
-                                                        .sub-name-clients Designation
-                                            li.clients.clients-third
-                                                .clients-info Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
-                                                .row
-                                                    .col-xs-3
-                                                        div
-                                                            img(src="../../img/home/content/clients/client-third.png" alt="clients")
-                                                    .col-xs-9.padding-name-clients
-                                                        .name-clients Akhil Designer
-                                                        .sub-name-clients Designation
+                        .home-banner-background
+                            img(src="../../img/home/banner/banner-first.jpg" alt="banner" class="home-banner-img")
+                            .carousel-caption
+                                .container.wrap-heading-site
+                                    .row
+                                        .col-xs-12.text-xs-left.pl-0
+                                            h3.sup-heading-site.pl-0 Welcome to
+                                            h1.heading-site Business plus
+                                            p.info-site Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever.
+                                            button(type="button" class="btn btn-orange btn-orange-black-text") Read more
                     .carousel-item
-                        .container
-                            .row
-                                .col-xs-12.pl-0
-                                    .wrap-clients-home
-                                        ul.pl-0.wrap-list-clients.flex-items-xs-between
-                                            li.clients.clients-first
-                                                .clients-info Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
-                                                .row
-                                                    .col-xs-3
-                                                        div
-                                                            img(src="../../img/home/content/clients/client-third.png" alt="clients")
-                                                    .col-xs-9.padding-name-clients
-                                                        .name-clients Akhil Designer
-                                                        .sub-name-clients Designation
-                                            li.clients.clients-second
-                                                .clients-info Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
-                                                .row
-                                                    .col-xs-3
-                                                        div
-                                                            img(src="../../img/home/content/clients/client-first.png" alt="clients")
-                                                    .col-xs-9.padding-name-clients
-                                                        .name-clients Krishnan Unni
-                                                        .sub-name-clients Designation
-                                            li.clients.clients-third
-                                                .clients-info Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
-                                                .row
-                                                    .col-xs-3
-                                                        div
-                                                            img(src="../../img/home/content/clients/client-second.png" alt="clients")
-                                                    .col-xs-9.padding-name-clients
-                                                        .name-clients Mariya Jeorge
-                                                        .sub-name-clients Designation
+                        .home-banner-background
+                            img(src="../../img/home/banner/banner-second.jpg" alt="banner" class="home-banner-img")
+                            .carousel-caption
+                                .container.wrap-heading-site
+                                    .row
+                                        .col-xs-12.text-xs-left.pl-0
+                                            h3.sup-heading-site.pl-0 Welcome to
+                                            h1.heading-site Business plus
+                                            p.info-site Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever.
+                                            button(type="button" class="btn btn-orange btn-orange-black-text") Read more
                     .carousel-item
-                        .container
-                            .row
-                                .col-xs-12.pl-0
-                                    .wrap-clients-home
-                                        ul.pl-0.wrap-list-clients.flex-items-xs-between
-                                            li.clients.clients-first
-                                                .clients-info Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
-                                                .row
-                                                    .col-xs-3
-                                                        div
-                                                            img(src="../../img/home/content/clients/client-first.png" alt="clients")
-                                                    .col-xs-9.padding-name-clients
-                                                        .name-clients Krishnan Unni
-                                                        .sub-name-clients Designation
-                                            li.clients.clients-second
-                                                .clients-info Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
-                                                .row
-                                                    .col-xs-3
-                                                        div
-                                                            img(src="../../img/home/content/clients/client-second.png" alt="clients")
-                                                    .col-xs-9.padding-name-clients
-                                                        .name-clients Mariya Jeorge
-                                                        .sub-name-clients Designation
-                                            li.clients.clients-third
-                                                .clients-info Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
-                                                .row
-                                                    .col-xs-3
-                                                        div
-                                                            img(src="../../img/home/content/clients/client-third.png" alt="clients")
-                                                    .col-xs-9.padding-name-clients
-                                                        .name-clients Akhil Designer
-                                                        .sub-name-clients Designation
+                        .home-banner-background
+                            img(src="../../img/home/banner/banner-third.jpg" alt="banner" class="home-banner-img")
+                            .carousel-caption
+                                .container.wrap-heading-site
+                                    .row
+                                        .col-xs-12.text-xs-left.pl-0
+                                            h3.sup-heading-site.pl-0 Welcome to
+                                            h1.heading-site Business plus
+                                            p.info-site Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever.
+                                            button(type="button" class="btn btn-orange btn-orange-black-text") Read more
                 .container
                     .row
-                        .col-xs-12.clients-carousel
+                        .col-xs-12.home-carousel-indicators
                             ol.carousel-indicators
-                                li(data-target="#carousel-example-generic" data-slide-to="0" class="active")
-                                li(data-target="#carousel-example-generic" data-slide-to="1")
-                                li(data-target="#carousel-example-generic" data-slide-to="2")
-        section.section-news
-            .container
-                .row
-                    .col-xs-12.wrap-heading-news.pl-0
-                        h2.heading News
-                        .info-heading From Our Blog
-            .container
-                .row
-                    .col-xs-1
-                        .row.lines-icon
-                            .col-xs-12.text-xs-right.news-icon.pt-0.pl-0.pr-2
-                                p.date 30
-                                span.month-year Oct-2015
-                        .row.lines-icon
-                            .col-xs-12.text-xs-right.news-icon.pl-0.pr-2
-                                .info-icon.info-icon-first 8- Com
-                        .row.lines-icon
-                            .col-xs-12.text-xs-right.news-icon.pl-0.pr-2
-                                .info-icon.info-icon-second 16- View
-                    .col-xs-5
+                                li(data-target="#home-carousel" data-slide-to="0" class="active")
+                                li(data-target="#home-carousel" data-slide-to="1")
+                                li(data-target="#home-carousel" data-slide-to="2")
+            section.about-us-section
+                .container.pl-0
+                    .row
+                        .col-xs-5
+                            h2.heading About us
+                            .info-heading Our Short Story
+                        .col-xs-7.pl-3
+                            .text-home Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            form(action="about-us.html")
+                                button(type="submit" class="btn btn-orange margin-btn-read") Read more
+            section.section-services
+                .container
+                    .row
+                        .col-xs-12.wrap-heading-services.pl-0
+                            h2.heading Services
+                            .info-heading What we are doing
+                .container
+                    .row
+                        .col-xs-12.wrap-services.flex-items-xs-between.pl-0
+                            .services.services-first
+                                .heading-services Boosting your business
+                                .info-services Lorem Ipsum is simply dummy text of the printing and industry Lorem Ipsum has been the industry's standard dummy text.
+                            .services.services-second
+                                .heading-services Online support
+                                .info-services Lorem Ipsum is simply dummy text of the printing and industry Lorem Ipsum has been the industry's standard dummy text.
+                            .services.services-third
+                                .heading-services analyzing business strategy
+                                .info-services Lorem Ipsum is simply dummy text of the printing and industry Lorem Ipsum has been the industry's standard dummy text.
+                            .services.services-fourth
+                                .heading-services Time managment
+                                .info-services Lorem Ipsum is simply dummy text of the printing and industry Lorem Ipsum has been the industry's standard dummy text.
+                    .row
+                        .col-xs-12.pl-0
+                            form(action="services.html")
+                                button(type="submit" class="btn btn-orange margin-btn-view") View more
+            section
+                .container.pyramids.pyramids-right
+                    .row
+                        .col-xs-12.wrap-heading-clients.pl-0
+                            h2.heading Clients
+                            .info-heading Whats our client says
+                div(id="carousel-example-generic" class="carousel slide" data-ride="carousel")
+                    div(class="carousel-inner" role="listbox")
+                        .carousel-item.active
+                            .container
+                                .row
+                                    .col-xs-12.pl-0
+                                        .wrap-clients-home
+                                            ul.pl-0.wrap-list-clients.flex-items-xs-between
+                                                li.clients.clients-first
+                                                    .clients-info Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                                                    .row
+                                                        .col-xs-3
+                                                            div
+                                                                img(src="../../img/home/content/clients/client-first.png" alt="clients")
+                                                        .col-xs-9.padding-name-clients
+                                                            .name-clients Krishnan Unni
+                                                            .sub-name-clients Designation
+                                                li.clients.clients-second
+                                                    .clients-info Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                                                    .row
+                                                        .col-xs-3
+                                                            div
+                                                                img(src="../../img/home/content/clients/client-second.png" alt="clients")
+                                                        .col-xs-9.padding-name-clients
+                                                            .name-clients Mariya Jeorge
+                                                            .sub-name-clients Designation
+                                                li.clients.clients-third
+                                                    .clients-info Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                                                    .row
+                                                        .col-xs-3
+                                                            div
+                                                                img(src="../../img/home/content/clients/client-third.png" alt="clients")
+                                                        .col-xs-9.padding-name-clients
+                                                            .name-clients Akhil Designer
+                                                            .sub-name-clients Designation
+                        .carousel-item
+                            .container
+                                .row
+                                    .col-xs-12.pl-0
+                                        .wrap-clients-home
+                                            ul.pl-0.wrap-list-clients.flex-items-xs-between
+                                                li.clients.clients-first
+                                                    .clients-info Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                                                    .row
+                                                        .col-xs-3
+                                                            div
+                                                                img(src="../../img/home/content/clients/client-third.png" alt="clients")
+                                                        .col-xs-9.padding-name-clients
+                                                            .name-clients Akhil Designer
+                                                            .sub-name-clients Designation
+                                                li.clients.clients-second
+                                                    .clients-info Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                                                    .row
+                                                        .col-xs-3
+                                                            div
+                                                                img(src="../../img/home/content/clients/client-first.png" alt="clients")
+                                                        .col-xs-9.padding-name-clients
+                                                            .name-clients Krishnan Unni
+                                                            .sub-name-clients Designation
+                                                li.clients.clients-third
+                                                    .clients-info Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                                                    .row
+                                                        .col-xs-3
+                                                            div
+                                                                img(src="../../img/home/content/clients/client-second.png" alt="clients")
+                                                        .col-xs-9.padding-name-clients
+                                                            .name-clients Mariya Jeorge
+                                                            .sub-name-clients Designation
+                        .carousel-item
+                            .container
+                                .row
+                                    .col-xs-12.pl-0
+                                        .wrap-clients-home
+                                            ul.pl-0.wrap-list-clients.flex-items-xs-between
+                                                li.clients.clients-first
+                                                    .clients-info Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                                                    .row
+                                                        .col-xs-3
+                                                            div
+                                                                img(src="../../img/home/content/clients/client-first.png" alt="clients")
+                                                        .col-xs-9.padding-name-clients
+                                                            .name-clients Krishnan Unni
+                                                            .sub-name-clients Designation
+                                                li.clients.clients-second
+                                                    .clients-info Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                                                    .row
+                                                        .col-xs-3
+                                                            div
+                                                                img(src="../../img/home/content/clients/client-second.png" alt="clients")
+                                                        .col-xs-9.padding-name-clients
+                                                            .name-clients Mariya Jeorge
+                                                            .sub-name-clients Designation
+                                                li.clients.clients-third
+                                                    .clients-info Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                                                    .row
+                                                        .col-xs-3
+                                                            div
+                                                                img(src="../../img/home/content/clients/client-third.png" alt="clients")
+                                                        .col-xs-9.padding-name-clients
+                                                            .name-clients Akhil Designer
+                                                            .sub-name-clients Designation
+                    .container
                         .row
-                            img(src="../../img/home/content/news/news-img.png" alt="news-img" class="img-news")
-                        .row
-                            .col-xs-12.pl-0
-                                .wrap-new-blog
+                            .col-xs-12.clients-carousel
+                                ol.carousel-indicators
+                                    li(data-target="#carousel-example-generic" data-slide-to="0" class="active")
+                                    li(data-target="#carousel-example-generic" data-slide-to="1")
+                                    li(data-target="#carousel-example-generic" data-slide-to="2")
+            section.section-news
+                .container
+                    .row
+                        .col-xs-12.wrap-heading-news.pl-0
+                            h2.heading News
+                            .info-heading From Our Blog
+                .container
+                    .row
+                        .col-xs-1
+                            .row.lines-icon
+                                .col-xs-12.text-xs-right.news-icon.pt-0.pl-0.pr-2
+                                    p.date 30
+                                    span.month-year Oct-2015
+                            .row.lines-icon
+                                .col-xs-12.text-xs-right.news-icon.pl-0.pr-2
+                                    .info-icon.info-icon-first 8- Com
+                            .row.lines-icon
+                                .col-xs-12.text-xs-right.news-icon.pl-0.pr-2
+                                    .info-icon.info-icon-second 16- View
+                        .col-xs-5
+                            .row
+                                img(src="../../img/home/content/news/news-img.png" alt="news-img" class="img-news")
+                            .row
+                                .col-xs-12.pl-0
+                                    .wrap-new-blog
+                                        .blog-heading-news Blog Heading
+                                        .blog-info-heading-news Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...
+                        .col-xs-6.pl-3
+                            .row
+                                .col-xs-12
                                     .blog-heading-news Blog Heading
-                                    .blog-info-heading-news Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...
-                    .col-xs-6.pl-3
-                        .row
-                            .col-xs-12
-                                .blog-heading-news Blog Heading
-                                .date-news-blog 30 - Oct - 2015
-                                .blog-info-heading-news.border-news-blog Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...
-                        .row
-                            .col-xs-12
-                                .blog-heading-news Blog Heading
-                                .date-news-blog 1 - Nov - 2015
-                                .blog-info-heading-news Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled...
-                        .row
-                            .col-xs-12
-                                form(action="news.html")
-                                    button(type="submit" class="btn btn-orange ") View more
-        section
-            .container
-                .row
-                    .col-xs-12.pl-0.margin-blog
-                        h2.heading Partners
-                        .info-heading Our Great Partners
-            div(id="carousel-partners" class="carousel slide" data-ride="carousel")
-                div(class="carousel-inner" role="listbox")
-                    .carousel-item.active
-                        .container.wrap-partners
+                                    .date-news-blog 30 - Oct - 2015
+                                    .blog-info-heading-news.border-news-blog Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...
                             .row
-                                .col-xs-12.wrap-img-partners.flex-items-xs-between.pl-0.pr-0
-                                    a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center mr-0")
-                                        img(src="../../img/home/content/partners/beer.png" alt="brand-clients")
-                                    a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
-                                        img(src="../../img/home/content/partners/prestiges.png" alt="brand-clients")
-                                    a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
-                                        img(src="../../img/home/content/partners/deer-brand.png" alt="brand-clients")
-                                    a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
-                                        img(src="../../img/home/content/partners/genuine.png" alt="brand-clients")
-                                    a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
-                                        img(src="../../img/home/content/partners/retro-brand.png" alt="brand-clients")
-                                    a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
-                                        img(src="../../img/home/content/partners/retro-design.png" alt="brand-clients")
-                    .carousel-item
-                        .container.wrap-partners
+                                .col-xs-12
+                                    .blog-heading-news Blog Heading
+                                    .date-news-blog 1 - Nov - 2015
+                                    .blog-info-heading-news Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled...
                             .row
-                                .col-xs-12.wrap-img-partners.flex-items-xs-between.pl-0.pr-0
-                                    a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center mr-0")
-                                        img(src="../../img/home/content/partners/beer.png" alt="brand-clients")
-                                    a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
-                                        img(src="../../img/home/content/partners/retro-design.png" alt="brand-clients")
-                                    a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
-                                        img(src="../../img/home/content/partners/retro-brand.png" alt="brand-clients")
-                                    a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
-                                        img(src="../../img/home/content/partners/genuine.png" alt="brand-clients")
-                                    a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
-                                        img(src="../../img/home/content/partners/prestiges.png" alt="brand-clients")
-                                    a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
-                                        img(src="../../img/home/content/partners/deer-brand.png" alt="brand-clients")
-                    .carousel-item
-                        .container.wrap-partners
-                            .row
-                                .col-xs-12.wrap-img-partners.flex-items-xs-between.pl-0.pr-0
-                                    a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center mr-0")
-                                        img(src="../../img/home/content/partners/beer.png" alt="brand-clients")
-                                    a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
-                                        img(src="../../img/home/content/partners/prestiges.png" alt="brand-clients")
-                                    a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
-                                        img(src="../../img/home/content/partners/deer-brand.png" alt="brand-clients")
-                                    a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
-                                        img(src="../../img/home/content/partners/genuine.png" alt="brand-clients")
-                                    a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
-                                        img(src="../../img/home/content/partners/retro-brand.png" alt="brand-clients")
-                                    a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
-                                        img(src="../../img/home/content/partners/retro-design.png" alt="brand-clients")
+                                .col-xs-12
+                                    form(action="news.html")
+                                        button(type="submit" class="btn btn-orange ") View more
+            section
                 .container
                     .row
-                        .col-xs-12
-                            ol.carousel-indicators
-                                li(data-target="#carousel-partners" data-slide-to="0" class="active")
-                                li(data-target="#carousel-partners" data-slide-to="1")
-                                li(data-target="#carousel-partners" data-slide-to="2")
-        footer.wrap-footer
-            .container.pyramids.pyramids-right
-                .row
-                    .col-xs-4
-                       img(src="../../img/home/footer/logo.png" alt="logo" class="logo-footer")
-                       p.copyright 2015 &copy; Lawyer.
-                       div
-                           button.btn-footer
-                               img(src="../../img/home/footer/btn-fc.png" alt="facebook")
-                           button.btn-footer
-                               img(src="../../img/home/footer/btn-g.png" alt="google")
-                           button.btn-footer
-                               img(src="../../img/home/footer/btn-tw.png" alt="twitter")
-                           button.btn-footer
-                               img(src="../../img/home/footer/btn-in.png" alt="inst")
-                    .col-xs-3
-                        nav
-                            h2.heading-nav Navigation
-                            ul.navigations
-                                li.lines-nav.lines-nav-active
-                                    a(href="home.html" class="active-footer")
-                                        i.fa.fa-caret-right
-                                        |Home
-                                li.lines-nav
-                                    a(href="about-us.html")
-                                        i.fa.fa-caret-right
-                                        |About us
-                                li.lines-nav
-                                    a(href="services.html")
-                                        i.fa.fa-caret-right
-                                        |Services
-                                li.lines-nav
-                                    a(href="testimonials.html")
-                                        i.fa.fa-caret-right
-                                        |testimonials
-                                li.lines-nav
-                                    a(href="blog.html")
-                                        i.fa.fa-caret-right
-                                        |blog
-                                li
-                                    a(href="contact-us.html")
-                                        i.fa.fa-caret-right
-                                        |contact-us
-                    .col-xs-5.contact-us.pr-0
-                        h2.head-form Quick Contact Us
-                        form.f-footer
-                            ul.row.mb-0
-                                li.col-xs-6.pr-0
-                                    label(class="sr-only" for="name-f")
-                                    input(type="text" class="form-control input-footer" id="name-f" placeholder="Name *")
-                                li.col-xs-6.pl-0
-                                    label(class="sr-only" for="email-f")
-                                    input(type="email" class="form-control input-footer" id="email-f" placeholder="Email *")
-                            textarea(class="form-control textarea" rows="4"  placeholder="Comment *")
-                            button(type="submit" class="btn  btn-submit margin-submit-footer") Submit now
-        +jquery
-        +bootstrap-js
-        +tether
+                        .col-xs-12.pl-0.margin-blog
+                            h2.heading Partners
+                            .info-heading Our Great Partners
+                div(id="carousel-partners" class="carousel slide" data-ride="carousel")
+                    div(class="carousel-inner" role="listbox")
+                        .carousel-item.active
+                            .container.wrap-partners
+                                .row
+                                    .col-xs-12.wrap-img-partners.flex-items-xs-between.pl-0.pr-0
+                                        a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center mr-0")
+                                            img(src="../../img/home/content/partners/beer.png" alt="brand-clients")
+                                        a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
+                                            img(src="../../img/home/content/partners/prestiges.png" alt="brand-clients")
+                                        a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
+                                            img(src="../../img/home/content/partners/deer-brand.png" alt="brand-clients")
+                                        a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
+                                            img(src="../../img/home/content/partners/genuine.png" alt="brand-clients")
+                                        a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
+                                            img(src="../../img/home/content/partners/retro-brand.png" alt="brand-clients")
+                                        a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
+                                            img(src="../../img/home/content/partners/retro-design.png" alt="brand-clients")
+                        .carousel-item
+                            .container.wrap-partners
+                                .row
+                                    .col-xs-12.wrap-img-partners.flex-items-xs-between.pl-0.pr-0
+                                        a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center mr-0")
+                                            img(src="../../img/home/content/partners/beer.png" alt="brand-clients")
+                                        a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
+                                            img(src="../../img/home/content/partners/retro-design.png" alt="brand-clients")
+                                        a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
+                                            img(src="../../img/home/content/partners/retro-brand.png" alt="brand-clients")
+                                        a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
+                                            img(src="../../img/home/content/partners/genuine.png" alt="brand-clients")
+                                        a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
+                                            img(src="../../img/home/content/partners/prestiges.png" alt="brand-clients")
+                                        a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
+                                            img(src="../../img/home/content/partners/deer-brand.png" alt="brand-clients")
+                        .carousel-item
+                            .container.wrap-partners
+                                .row
+                                    .col-xs-12.wrap-img-partners.flex-items-xs-between.pl-0.pr-0
+                                        a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center mr-0")
+                                            img(src="../../img/home/content/partners/beer.png" alt="brand-clients")
+                                        a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
+                                            img(src="../../img/home/content/partners/prestiges.png" alt="brand-clients")
+                                        a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
+                                            img(src="../../img/home/content/partners/deer-brand.png" alt="brand-clients")
+                                        a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
+                                            img(src="../../img/home/content/partners/genuine.png" alt="brand-clients")
+                                        a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
+                                            img(src="../../img/home/content/partners/retro-brand.png" alt="brand-clients")
+                                        a(href="#" class="img-partners  flex-items-xs-middle flex-items-xs-center")
+                                            img(src="../../img/home/content/partners/retro-design.png" alt="brand-clients")
+                    .container
+                        .row
+                            .col-xs-12
+                                ol.carousel-indicators
+                                    li(data-target="#carousel-partners" data-slide-to="0" class="active")
+                                    li(data-target="#carousel-partners" data-slide-to="1")
+                                    li(data-target="#carousel-partners" data-slide-to="2")
+        +footer
+        include includes/js-includes
