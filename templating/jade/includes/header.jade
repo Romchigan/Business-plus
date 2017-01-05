@@ -1,0 +1,40 @@
+mixin header
+    header.wrap-header
+        .container.pr-0.pl-0
+            .row
+                .col-xs-12.pr-0.pl-0
+                    nav.navbar.navbar-light
+                        a(href="#" class="navbar-brand")
+                            img(src="../../img/home/header/logo.png" alt="logo" class="logo-header")
+                        span.navbar-text.phone
+                            i(class="fa fa-phone" aria-hidden="true")
+                            a(href="callto:+9978 8856 999") +9978 8856 999
+                        ul.nav.navbar-nav
+                            block active-home
+                                li.nav-item
+                                    a(class="nav-link" href="home.html") Home
+                            block active-about-us
+                                li.nav-item
+                                    a(class="nav-link" href="about-us.html") About us
+                            block active-services
+                                li.nav-item
+                                    a(class="nav-link" href="services.html") Services
+                            block active-news
+                                li.nav-item
+                                    a(class="nav-link" href="News.html") News
+                            block active-blog
+                                li.nav-item
+                                    a(class="nav-link" href="Blog.html") Blog
+                            block active-pages
+                                li.nav-item
+                                    a(class="nav-link" href="#") Pages
+                                    ul.nav-submenu
+                                        li.nav-submenu-item
+                                            a(href="faq.html") Faq
+                                        li.nav-submenu-item
+                                            a(href="careers.html") Careers
+                                        li.nav-submenu-item
+                                            a(href="testimonials.html") Testimonials
+                            block active-contact-us
+                                li.nav-item
+                                    a(class="nav-link" href="contact-us.html") Contact us

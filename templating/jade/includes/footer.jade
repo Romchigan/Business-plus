@@ -1,0 +1,56 @@
+mixin footer
+    footer.wrap-footer
+        .container.pyramids.pyramids-right
+            .row
+                .col-xs-4
+                    img(src="../../img/error/footer/logo.png" alt="logo" class="logo-footer")
+                    p.copyright 2015 &copy; Lawyer.
+                    div
+                        button.btn-footer
+                            img(src="../../img/error/footer/btn-fc.png" alt="facebook")
+                        button.btn-footer
+                            img(src="../../img/error/footer/btn-g.png" alt="google")
+                        button.btn-footer
+                            img(src="../../img/error/footer/btn-tw.png" alt="twitter")
+                        button.btn-footer
+                            img(src="../../img/error/footer/btn-in.png" alt="inst")
+                .col-xs-3
+                    nav
+                        h2.heading-nav Navigation
+                        ul.navigations
+                            li.lines-nav
+                                a(href="home.html")
+                                    i(class="fa fa-caret-right")
+                                    |Home
+                            li.lines-nav
+                                a(href="about-us.html")
+                                    i(class="fa fa-caret-right")
+                                    |About us
+                            li.lines-nav
+                                a(href="Services.html")
+                                    i(class="fa fa-caret-right")
+                                    |Services
+                            li.lines-nav
+                                a(href="Testimonial.html")
+                                    i(class="fa fa-caret-right")
+                                    |Testimonial
+                            li.lines-nav
+                                a(href="Blog.html")
+                                    i(class="fa fa-caret-right")
+                                    |Blog
+                            li
+                                a(href="Contact-us.html")
+                                    i(class="fa fa-caret-right")
+                                    |Contact us
+                .col-xs-5.contact-us.pr-0
+                    h2.head-form Quick Contact Us
+                    form.f-footer
+                        ul.row.mb-0
+                            li.col-xs-6.pr-0
+                                label(class="sr-only" for="name-f")
+                                input(type="text" class="form-control input-footer" id="name-f" placeholder="Name *")
+                            li.col-xs-6.pl-0
+                                label(class="sr-only" for="email-f")
+                                input(type="email" class="form-control input-footer" id="email-f" placeholder="Email *")
+                        textarea(class="form-control textarea" rows="4"  placeholder="Comment *")
+                        button(type="submit" class="btn  btn-submit margin-submit-footer") Submit now
