@@ -1,0 +1,99 @@
+extends template
+block title
+    title Blog
+block banner-bg
+    .banner-background
+        img(src="../../../img/blog/banner.jpg" alt="banner" class="banner-img" width="1970px" height="400px")
+block content
+    .container.margin-blog
+        .row
+            .col-xs-12.pl-0
+                h2.heading Blog Page
+                .info-heading Our featured Post
+    article
+        .container.wrap-blog
+            header
+                .row
+                    .col-xs-1
+                        img(src="../../../img/blog/content/blog-first/admin-photo.png" alt="admin-photo")
+                    .col-xs-11
+                        h1.blog-heading Blog heading here
+                        .info-posted Posted by: admin,
+                            time October- 11- 2015
+            section
+                .row
+                    .col-xs-11.offset-xs-1
+                        div
+                            img(src="../../../img/blog/content/blog-first/img-blog.png" alt="img-content")
+                        .text-blog.margin-text-blog Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised..
+            footer
+                .row.flex-items-xs-between
+                    .col-xs-5.offset-xs-1.wrap-btn-social
+                        span Share:
+                        .social
+                            a(class="facebookBtn smGlobalBtn" href="https://www.facebook.com/")
+                            a(class="twitterBtn smGlobalBtn" href="https://twitter.com/")
+                            a(class="googleplusBtn smGlobalBtn" href="https://plus.google.com/?hl=ru")
+                    .col-xs-6.text-xs-right
+                        button(type="button" class="btn btn-orange margin-btn-read") Read more
+    article
+        .container.wrap-blog
+            header
+                .row
+                    .col-xs-1
+                        img(src="../../../img/blog/content/blog-second/admin-photo.png" alt="admin-photo")
+                    .col-xs-11
+                        h1.blog-heading Blog heading here
+                        .info-posted Posted by: admin,
+                            time October- 11- 2015
+            section
+                .row
+                    .col-xs-11.offset-xs-1
+                        div
+                            img(src="../../../img/blog/content/blog-second/img-blog.png" alt="img-content")
+                        .text-blog.margin-text-blog Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised..
+            footer
+                .row
+                    .col-xs-5.offset-xs-1.wrap-btn-social
+                        span Share:
+                        .social
+                            a(class="facebookBtn smGlobalBtn" href="https://www.facebook.com/")
+                            a(class="twitterBtn smGlobalBtn" href="https://twitter.com/")
+                            a(class="googleplusBtn smGlobalBtn" href="https://plus.google.com/?hl=ru")
+                    .col-xs-6.text-xs-right
+                        button(type="button" class="btn btn-orange margin-btn-read") Read more
+    article
+        .container.wrap-blog
+            header
+                .row
+                    .col-xs-1
+                        img(src="../../../img/blog/content/blog-third/admin-photo.png" alt="admin-photo")
+                    .col-xs-11
+                        h1.blog-heading Blog heading here
+                        .info-posted Posted by: admin,
+                            time October- 11- 2015
+            section
+                .row
+                    .col-xs-11.offset-xs-1
+                        div
+                            img(src="../../../img/blog/content/blog-third/img-blog.png" alt="img-content")
+                        .text-blog.margin-text-blog Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised..
+            footer
+                .row
+                    .col-xs-5.offset-xs-1.wrap-btn-social
+                        span Share:
+                        .social
+                            a(class="facebookBtn smGlobalBtn" href="https://www.facebook.com/")
+                            a(class="twitterBtn smGlobalBtn" href="https://twitter.com/")
+                            a(class="googleplusBtn smGlobalBtn" href="https://plus.google.com/?hl=ru")
+                    .col-xs-6.text-xs-right
+                        button(type="button" class="btn btn-orange margin-btn-read") Read more
+    nav(aria-label="Page navigation")
+        ul.pagination.pagination-lg.click-pages
+            li.page-item.active
+                a(class="page-link" href="#") 1
+                    span.sr-only (current)
+            li.page-item
+                a(class="page-link" href="blog-post.html") 2
+            li.page-item
+                a(class="page-link" href="#") 3
