@@ -1,0 +1,77 @@
+extends template
+block title
+    title Testimonials
+block banner-bg
+    .banner-background
+        img(src="../../../img/testimonials/banner.jpg" alt="banner" class="banner-img" width="1970px" height="850px")
+block content
+    .container.margin-testimonials
+        .row
+            .col-xs-12.pl-0
+                h2.heading Testimonials
+                .info-heading Our Happy Clients
+    section.section-testimonials.pt-0
+        .container
+            .row
+                .col-xs-5.pl-0
+                    img(src="../../../img/testimonials/content/first-testimonial.png" alt="testimonials")
+                .col-xs-7.pr-0.pl-0
+                    .wrap-testimonials.wrap-testimonials-first
+                        .info-testimonial Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took galley of type and scrambled it to make a type specimen book. It has survived
+                        .name-here name here
+                        .designation-testimonial Designation
+    section.section-testimonials.bg-light-blue.pt-0
+        .container.pyramids.pyramids-right.padding-testimoinial
+            .row
+                .col-xs-5.pl-0
+                    img(src="../../../img/testimonials/content/second-testimonial.png" alt="testimonials")
+                .col-xs-7.pr-0.pl-0
+                    .wrap-testimonials
+                        .info-testimonial Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took galley of type and scrambled it to make a type specimen book. It has survived
+                        .name-here name here
+                        .designation-testimonial Designation
+    section.section-testimonials
+        .container
+            .row
+                .col-xs-5.pl-0
+                    img(src="../../../img/testimonials/content/third-testimonial.png" alt="testimonials")
+                .col-xs-7.pr-0.pl-0
+                    .wrap-testimonials
+                        .info-testimonial Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took galley of type and scrambled it to make a type specimen book. It has survived
+                        .name-here name here
+                        .designation-testimonial Designation
+    section.section-testimonials.bg-light-blue
+        .container.padding-testimoinial
+            .row
+                .col-xs-5.pl-0
+                    img(src="../../../img/testimonials/content/fourth-testimonial.png" alt="testimonials")
+                .col-xs-7.pr-0.pl-0
+                    .wrap-testimonials
+                        .info-testimonial Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took galley of type and scrambled it to make a type specimen book. It has survived
+                        .name-here name here
+                        .designation-testimonial Designation
+    section
+        .container.margin-testimonials
+            .row
+                .col-xs12.pl-0
+                    h2.heading Post Comments
+                    .info-heading Post Your testimonial now
+        .container
+            .row
+                .col-xs-6.pl-0
+                    form.form.form-post-comments
+                        .form-group
+                            label(class="sr-only" for="name") Name
+                            input(type="text" class="form-control" id="name" placeholder="Name *")
+                        .form-group
+                            label(class="sr-only" for="email") Email address
+                            input(type="email" class="form-control" id="email" placeholder="email *")
+                        .form-group
+                            label(class="sr-only" for="tel") tel
+                            input(type="tel" class="form-control" id="tel" placeholder="phone *")
+                .col-xs-6.pr-0
+                    form.form.form-post-comments
+                        .form-group
+                            label(class="sr-only" for="textarea-post-comments") textarea-post-comments
+                            textarea(class="form-control textarea-post-comments" id="textarea-post-comments" rows="9" placeholder="Comment *")
+                            button(type="submit" class="btn  btn-submit margin-submit-post-comments") Submit now
