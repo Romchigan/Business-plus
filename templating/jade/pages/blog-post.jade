@@ -1,0 +1,112 @@
+extends template
+block title
+    title Blog-post
+block banner-bg
+    .banner-background
+        img(src="../../../img/blog-post/banner.jpg" alt="banner" class="banner-img" width="1970px" height="400px")
+block content
+    .container.margin-blog
+        .row
+            .col-xs-12.pl-0
+                h2.heading Blog Post
+                .info-heading Our featured Post
+    article
+        .container.wrap-blog-post.pr-0
+            header
+                .row
+                    .col-xs-1
+                        img(src="../../../img/blog-post/content/blog-first/admin-photo.png" alt="admin-photo")
+                    .col-xs-11
+                        h1.blog-heading Blog heading here
+                        .info-posted Posted by: admin,
+                            time October- 11- 2015
+            section
+                .row
+                    .col-xs-11.offset-xs-1
+                        div
+                            img(src="../../../img/blog-post/content/blog-first/img-blog.png" alt="img-content")
+                        .text-blog-post Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+                        .heading-text Many publishing packages
+                        .text-blog-post Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged It was popularised Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.
+                        blockquote.blockquote
+                            p.text-blockquote Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.
+                        .text-blog-post It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages
+            footer
+                .row.wrap-icons
+                        .col-xs-11.offset-xs-1.wrap-btn-social
+                            span Share:
+                            .social
+                                a(class="facebookBtn smGlobalBtn" href="https://www.facebook.com/")
+                                a(class="twitterBtn smGlobalBtn" href="https://twitter.com/")
+                                a(class="googleplusBtn smGlobalBtn" href="https://plus.google.com/?hl=ru")
+    .container.admin
+        .row
+            .col-xs-2
+                img(src="../../../img/blog-post/content/admin.png" alt="admin")
+            .col-xs-10
+                .callout.arrow-left
+                    .admin-name Admin name
+                    .admin-info Established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages.
+    .container.margin-blog
+        .row
+            .col-xs-12.pl-0
+                h2.heading Comments
+                .info-heading Suggestions & feedback
+    .container.wrap-comments.pr-0
+        .row.comments
+            .col-xs-1.photo-comm
+                img(src="../../../img/blog-post/content/comments/com-first.png" alt="comment-first")
+            .col-xs-11.padding-com
+                .head-comments Name here
+                    span.date-comments October- 11- 2015
+                .text-comments It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making.
+                .wrap-btn-reply
+                    .reply
+                        a(class="reply-btn Globalreply" href="#")
+        .row.comments
+            .col-xs-1.photo-comm
+                img(src="../../../img/blog-post/content/comments/com-second.png" alt="comment-first")
+            .col-xs-11.padding-com
+                .head-comments Name here
+                    span.date-comments October- 11- 2015
+                .text-comments It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making.
+                .wrap-btn-reply
+                    .reply
+                        a(class="reply-btn Globalreply" href="#")
+        .row.comments-nesting
+            .col-xs-1.offset-xs-1.photo-comm-nesting
+                img(src="../../../img/blog-post/content/comments/com-third.png" alt="comment-first")
+            .col-xs-10.padding-com
+                .head-comments Name here
+                    span.date-comments October- 11- 2015
+                .text-comments It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making.
+                .wrap-btn-reply
+                    .reply
+                        a(class="reply-btn Globalreply" href="#")
+    section.comment-form
+        .container.pr-0
+            .row
+                .col-xs-12.pl-0
+                    h2.heading.margin-head-form Leave your comment
+                    .info-heading Submit your comments now
+            .row
+                .col-xs-12.pl-0
+                    form.form-contact
+                        .form-group
+                            label(class="sr-only f-form" for="name")
+                            input(type="text" class="form-control input-contact" id="name" placeholder="Name *" size="100%")
+                        .form-group
+                            label(class="sr-only" for="Email")
+                            input(type="email" class="form-control input-contact" id="Email" placeholder="Email address *" size="100%")
+                        .form-group
+                            label(class="sr-only" for="tel")
+                            input(type="tel" class="form-control input-contact" id="tel" placeholder="Phone number *" size="100%")
+                        textarea(class="form-control input-contact" rows="10" placeholder="Comment *")
+                        button(type="submit" class="btn btn-submit  margin-btn-comment ") Submit now
+
+
+
+
+
+
+
