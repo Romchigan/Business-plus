@@ -1,0 +1,55 @@
+extends template
+block title
+    title Contact-us
+block banner-bg
+    .banner-background
+        img(src="../../../img/contact-us/banner-contact-us.jpg" alt="banner" class="banner-img" width="1970px" height="460px")
+block content
+    .container.margin-blog
+        .row
+            .col-xs-12.pl-0
+                h2.heading Get in touch
+                .info-heading Feel free to contact us
+    article
+        .container.wrap-blog-contact
+            header
+                .row.flex-items-xs-middle
+                    .col-xs-6
+                        span.contact-phone
+                            i(class="fa fa-phone" aria-hidden="true")
+                            a(href="callto:+9978 8856 999") +9978 8856 9990
+                    .col-xs-6.text-xs-right
+                        button(type="button" class="btn btn-inf") info@businessplus.com
+            section
+                .row
+                    .col-xs-12
+                        .background-img
+                            img(src="../../../img/contact-us/content/blog-first/img-blog.jpg" alt="img-content" class="img-blog")
+                            .head-img Canada
+                            .text-img 100 Mission St, Canada street, Second flor 8878
+    section.contact-from
+        .container
+            .row
+                .col-xs-12.pl-0
+                    h2.heading.margin-head-form Contact from
+                    .info-heading Fill your requirments now
+            .row
+                .col-xs-12.pl-0
+                    form.form-contact
+                        .form-group
+                            label(class="sr-only f-form" for="name")
+                            input(type="text" class="form-control input-contact" id="name" placeholder="Name *" size="100%")
+                        .form-group
+                            label(class="sr-only" for="Email")
+                            input(type="email" class="form-control input-contact" id="Email" placeholder="Email address *" size="100%")
+                        .form-group
+                            label(class="sr-only" for="tel")
+                            input(type="tel" class="form-control input-contact" id="tel" placeholder="Phone number *" size="100%")
+                        .form-group
+                            select.form-control.input-contact
+                                option Service *
+                        textarea(class="form-control input-contact" rows="12" placeholder="Message *")
+                        button(type="submit" class="btn btn-submit margin-submit-form") Submit now
+
+
+
