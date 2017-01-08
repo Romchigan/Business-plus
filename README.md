@@ -31,22 +31,16 @@ npm install sass
 npm install compass 
 ``
 
-For installation  templating jade  open node.js command prompt and type the commands: 
- 
-``  
-npm install jade --global 
-``
-
 ###Quick start
 ***
 
-For to install libraries open node js command prompt  and run command below in project root
+For to install libraries open node js command prompt and run command below in project root
 
 ``  
 bower install 
 `` 
 
-For to compile scss files open ruby command prompt  and run command below in project root 
+For to compile scss files open ruby command prompt and run command below in project root 
  
 ``  
 compass watch  
