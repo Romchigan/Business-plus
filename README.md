@@ -18,6 +18,9 @@ https://nodejs.org/en/
 Install ruby command prompt  
 http://rubyinstaller.org/
 
+###Install
+***    
+
 For installation sass&compass open node.js command prompt and type the commands: 
  
 ``  
@@ -35,7 +38,7 @@ and run command below in project root
 compass watch  
 ``  
   
-For to compile jade files open node js command prompt  
+For to compile html files open node js command prompt  
 and run command below in the project folder *pages*
 
 ``  
