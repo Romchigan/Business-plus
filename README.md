@@ -31,6 +31,8 @@ npm install sass
 npm install compass 
 ``
 
+###Quick start
+***
 For to compile scss files open ruby command prompt  
 and run command below in project root 
  
