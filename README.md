@@ -40,8 +40,7 @@ For to install libraries open node js command prompt  and run command below in p
 bower install 
 `` 
 
-For to compile scss files open ruby command prompt  
-and run command below in project root 
+For to compile scss files open ruby command prompt  and run command below in project root 
  
 ``  
 compass watch  
