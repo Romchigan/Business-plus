@@ -24,11 +24,11 @@ http://rubyinstaller.org/
 For installation sass&compass open node.js command prompt and type the commands: 
  
 ``  
-npm install sass 
+gem install sass 
 ``
 
 ``
-npm install compass 
+gem install compass 
 ``
 
 For installation  templating jade  open node.js command prompt and type the commands: 
@@ -52,7 +52,7 @@ For to compile scss files open ruby command prompt and run command below in proj
 compass watch  
 ``  
   
-For to compile html files open node js command prompt and run command below in the project folder *pages*
+For to compile html files open node js command prompt and run command below in the project folder *jade*
 
 ``  
 jade pages  
