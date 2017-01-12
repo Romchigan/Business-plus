@@ -1,6 +1,8 @@
 extends template
 block title
     title Faq
+block header
+    mixin header('pages')
 block banner-bg
     .banner-background
         img(src="../../../img/pages/faq-banner.jpg" alt="banner" class="banner-img" height="600px" width="1970px")
@@ -51,8 +53,7 @@ block content
                         span.input-group-addon#basic-addon
                             i(class="fa fa-search" aria-hidden="true")
                     button(type="submit" class="btn btn-submit  margin-btn-contact") Contact Us
-
-
+    mixin footer('')
 
 
 

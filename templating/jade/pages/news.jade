@@ -1,6 +1,8 @@
 extends template
 block title
     title News
+block header
+    mixin header('news')
 block banner-bg
     .banner-background
         img(src="../../../img/news/banner.jpeg" alt="banner" class="banner-img" width="1970px" height="1150px")
@@ -52,4 +54,4 @@ block content
                 .col-xs-6.wrap-info-news
                     .heading-news News heading Here
                     .info-news.pr-1 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-
+    mixin footer('')

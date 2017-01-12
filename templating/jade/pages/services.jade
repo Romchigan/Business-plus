@@ -1,6 +1,8 @@
 extends template
 block title
     title services
+block header
+    mixin header('services')
 block banner-bg
     .banner-background
         img(src="../../../img/services/banner.jpg" alt="banner" class="banner-img" width="1970px" height="500px")
@@ -157,6 +159,6 @@ block content
                             li(data-target="#carousel-example-generic" data-slide-to="0" class="active")
                             li(data-target="#carousel-example-generic" data-slide-to="1")
                             li(data-target="#carousel-example-generic" data-slide-to="2")
-block js
+    mixin footer('services')
     include ../includes/js-includes
 

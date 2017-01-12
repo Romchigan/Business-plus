@@ -1,6 +1,8 @@
 extends template
 block title
     title Testimonials
+block header
+    mixin header('pages')
 block banner-bg
     .banner-background
         img(src="../../../img/testimonials/banner.jpg" alt="banner" class="banner-img" width="1970px" height="850px")
@@ -75,3 +77,5 @@ block content
                             label(class="sr-only" for="textarea-post-comments") textarea-post-comments
                             textarea(class="form-control textarea-post-comments" id="textarea-post-comments" rows="9" placeholder="Comment *")
                             button(type="submit" class="btn  btn-submit margin-submit-post-comments") Submit now
+    mixin footer('testimonials')
+    include ../includes/js-includes

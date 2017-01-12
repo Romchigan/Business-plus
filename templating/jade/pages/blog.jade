@@ -1,6 +1,8 @@
 extends template
 block title
     title Blog
+block header
+    mixin header('blog')
 block banner-bg
     .banner-background
         img(src="../../../img/blog/banner.jpg" alt="banner" class="banner-img" width="1970px" height="400px")
@@ -97,3 +99,4 @@ block content
                 a(class="page-link" href="blog-post.html") 2
             li.page-item
                 a(class="page-link" href="#") 3
+    mixin footer('blog')

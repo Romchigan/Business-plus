@@ -6,7 +6,8 @@ html(lang="en")
         include ../includes/head-includes
         title Home
     body
-        +header
+        block header
+            mixin header('home')
         block content
             div(id="home-carousel" class="carousel slide" data-ride="carousel")
                 div(class="carousel-inner" role="listbox")
@@ -304,5 +305,5 @@ html(lang="en")
                                     li(data-target="#carousel-partners" data-slide-to="0" class="active")
                                     li(data-target="#carousel-partners" data-slide-to="1")
                                     li(data-target="#carousel-partners" data-slide-to="2")
-        +footer
+        mixin footer('home')
         include ../includes/js-includes

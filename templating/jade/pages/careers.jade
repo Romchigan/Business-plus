@@ -1,6 +1,8 @@
 extends template
 block title
     title Careers
+block header
+    mixin header('pages')
 block banner-bg
     .banner-background
         img(src="../../../img/careers/careers-banner.jpg" alt="banner" class="banner-img" width="1970px" height="400px")
@@ -212,6 +214,6 @@ block content
                 .row
                     .col-xs-12.text-xs-right.pr-0
                         button(type="button" class="btn btn-aply") apply now
-block js
+    mixin footer('')
     include ../includes/js-includes
 
