@@ -1,6 +1,9 @@
 .wrap-footer {
     width: 100%;
     background-color: #2a2b2c;
+    @media only screen and (max-width: 479px) and (min-width: 320px){
+        padding-left: 35px;
+    }
 }
 
 .logo-footer {

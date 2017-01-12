@@ -4,6 +4,10 @@
     padding-left: 0;
     padding-right: 0;
     border-bottom: 1px solid #e6e9ee;
+    padding-bottom: 70px;
+    @media only screen and (max-width: 479px) and (min-width: 320px){
+        margin-left: 15px;
+    }
 }
 
 .text-blog {
@@ -12,12 +16,21 @@
     font-weight: 400;
 }
 
+.admin-photo {
+    @media only screen and (max-width: 479px) and (min-width: 320px){
+        padding-left: 25px;
+    }
+}
+
 .margin-text-blog {
     margin: 45px 0 60px;
 }
 
 .margin-blog {
     margin-top: 100px;
+    @media only screen and (max-width: 479px) and (min-width: 320px){
+        margin-left: 35px;
+    }
 }
 
 .click-pages {
